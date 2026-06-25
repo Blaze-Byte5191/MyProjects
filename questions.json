@@ -1,0 +1,2795 @@
+{
+    "questionnaires": [
+        {
+            "questions": [
+                {
+                    "questionnaireId": 1296,
+                    "choices": [
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31536,
+                            "text": "Azure Data Factory",
+                            "textHtml": "<p>Azure Data Factory</p>\n",
+                            "isCorrect": false,
+                            "id": 132937,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31536,
+                            "text": "Azure Databricks",
+                            "textHtml": "<p>Azure Databricks</p>\n",
+                            "isCorrect": true,
+                            "id": 132938,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31536,
+                            "text": "Azure HDInsight",
+                            "textHtml": "<p>Azure HDInsight</p>\n",
+                            "isCorrect": false,
+                            "id": 132939,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31536,
+                            "text": "Azure Synapse Analytics",
+                            "textHtml": "<p>Azure Synapse Analytics</p>\n",
+                            "isCorrect": false,
+                            "id": 132940,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "4.1_dac_DP900PA",
+                    "text": "Which service is built on Apache Spark and is compatible with other cloud providers?",
+                    "textHtml": "<p>Which service is built on Apache Spark and is compatible with other cloud providers?</p>\n",
+                    "rationale": "Databricks is used for processing large amounts of data, which is supported by multiple cloud providers. Data Factory is used to run ETL pipelines. Azure Synapse Analytics is an Azure native service built on Apache Spark. HDInsight is used to process large amounts of data by using Apache Hadoop.\r\n\r\n[Explore analytical data stores - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/examine-components-of-modern-data-warehouse/4-analytical-data-stores)",
+                    "rationaleHtml": "<p>Databricks is used for processing large amounts of data, which is supported by multiple cloud providers. Data Factory is used to run ETL pipelines. Azure Synapse Analytics is an Azure native service built on Apache Spark. HDInsight is used to process large amounts of data by using Apache Hadoop.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/examine-components-of-modern-data-warehouse/4-analytical-data-stores\">Explore analytical data stores - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31536,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1296,
+                    "choices": [
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31537,
+                            "text": "data lake",
+                            "textHtml": "<p>data lake</p>\n",
+                            "isCorrect": false,
+                            "id": 132941,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31537,
+                            "text": "data warehouse",
+                            "textHtml": "<p>data warehouse</p>\n",
+                            "isCorrect": true,
+                            "id": 132942,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31537,
+                            "text": "cube",
+                            "textHtml": "<p>cube</p>\n",
+                            "isCorrect": false,
+                            "id": 132943,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31537,
+                            "text": "relational database",
+                            "textHtml": "<p>relational database</p>\n",
+                            "isCorrect": false,
+                            "id": 132944,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "4.1_dae_DP900PA",
+                    "text": "Which type of data store uses star schemas, fact tables, and dimension tables?",
+                    "textHtml": "<p>Which type of data store uses star schemas, fact tables, and dimension tables?</p>\n",
+                    "rationale": "Data warehouses use fact and dimension tables in a star/snowflake schema. Relational databases do not use fact and dimension tables. Cubes are generated from a data warehouse but are a table themselves. Data lakes store files.\r\n\r\n[Explore analytical data stores - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/examine-components-of-modern-data-warehouse/4-analytical-data-stores)",
+                    "rationaleHtml": "<p>Data warehouses use fact and dimension tables in a star/snowflake schema. Relational databases do not use fact and dimension tables. Cubes are generated from a data warehouse but are a table themselves. Data lakes store files.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/examine-components-of-modern-data-warehouse/4-analytical-data-stores\">Explore analytical data stores - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31537,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1296,
+                    "choices": [
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31540,
+                            "text": "a serverless Apache Spark pool in Azure Synapse Analytics",
+                            "textHtml": "<p>a serverless Apache Spark pool in Azure Synapse Analytics</p>\n",
+                            "isCorrect": true,
+                            "id": 132953,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31540,
+                            "text": "Azure Databricks",
+                            "textHtml": "<p>Azure Databricks</p>\n",
+                            "isCorrect": true,
+                            "id": 132954,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31540,
+                            "text": "A dedicated SQL pool in Azure Synapse Analytics",
+                            "textHtml": "<p>A dedicated SQL pool in Azure Synapse Analytics</p>\n",
+                            "isCorrect": false,
+                            "id": 132955,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31540,
+                            "text": "The serverless SQL pool in Azure Synapse Analytics",
+                            "textHtml": "<p>The serverless SQL pool in Azure Synapse Analytics</p>\n",
+                            "isCorrect": false,
+                            "id": 132956,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "4.1_dah_DP900PA",
+                    "text": "Which two services allow you to pre-process a large volume of data by using Scala? Each correct answer presents a complete solution.",
+                    "textHtml": "<p>Which two services allow you to pre-process a large volume of data by using Scala? Each correct answer presents a complete solution.</p>\n",
+                    "rationale": "Databricks and the Spark pool in Azure Synapse Analytics run data processing for large amounts of data by using Scala. \r\n\r\n[Explore data ingestion pipelines - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/examine-components-of-modern-data-warehouse/3-data-ingestion-pipelines)\r\n\r\n[Explore analytical data stores - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/examine-components-of-modern-data-warehouse/4-analytical-data-stores)",
+                    "rationaleHtml": "<p>Databricks and the Spark pool in Azure Synapse Analytics run data processing for large amounts of data by using Scala.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/examine-components-of-modern-data-warehouse/3-data-ingestion-pipelines\">Explore data ingestion pipelines - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/training/modules/examine-components-of-modern-data-warehouse/4-analytical-data-stores\">Explore analytical data stores - Training | Microsoft Learn</a></p>\n",
+                    "type": "MultiSelect",
+                    "choiceCount": 4,
+                    "id": 31540,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1296,
+                    "choices": [
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31544,
+                            "text": "Create a database.",
+                            "textHtml": "<p>Create a database.</p>\n",
+                            "isCorrect": true,
+                            "id": 132969,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31544,
+                            "text": "Create a schema.",
+                            "textHtml": "<p>Create a schema.</p>\n",
+                            "isCorrect": false,
+                            "id": 132970,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31544,
+                            "text": "Create a table.",
+                            "textHtml": "<p>Create a table.</p>\n",
+                            "isCorrect": false,
+                            "id": 132971,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31544,
+                            "text": "Create an additional notebook.",
+                            "textHtml": "<p>Create an additional notebook.</p>\n",
+                            "isCorrect": false,
+                            "id": 132972,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31544,
+                            "text": "Run queries.",
+                            "textHtml": "<p>Run queries.</p>\n",
+                            "isCorrect": false,
+                            "id": 132973,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "4.1_dal_DP900PA",
+                    "text": "Which three actions can you perform directly from an Azure Databricks notebook? Each correct answer presents a complete solution.",
+                    "textHtml": "<p>Which three actions can you perform directly from an Azure Databricks notebook? Each correct answer presents a complete solution.</p>\n",
+                    "rationale": "**Objective:**\r\n\r\n4.1 Describe common elements of large-scale analytics\r\n\r\n**What This Item Tests:**\r\n\r\nDescribe Microsoft cloud services for large-scale data analytics, including Azure Databricks and Microsoft Fabric.\r\n\r\n**Additional Reading:**\r\n\r\n[Databricks notebooks - Training | Microsoft Learn](https://learn.microsoft.com/en-us/azure/databricks/notebooks/)  \r\n  \r\n[Understand key concepts | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/explore-azure-databricks/04-key-concepts)  \r\n\r\n**Rationale:**\r\n\r\nDatabricks notebooks are interactive development environments that enable users to execute code and SQL statements directly against the data in a lakehouse. From within a notebook, you can run queries to explore and analyze data, create tables, such as Delta tables, to persist structured data, and create databases in the metastore by running SQL commands. These actions represent core, in-notebook capabilities that support large-scale analytics workloads. In contrast, creating an additional notebook is a workspace management task performed through the Databricks UI, not from within a running notebook. In addition, creating a schema is intentionally excluded at the DP-900 level to avoid unnecessary conceptual overlap with databases, which are the primary organizational construct emphasized for foundational learners.",
+                    "rationaleHtml": "<p><strong>Objective:</strong></p>\n<p>4.1 Describe common elements of large-scale analytics</p>\n<p><strong>What This Item Tests:</strong></p>\n<p>Describe Microsoft cloud services for large-scale data analytics, including Azure Databricks and Microsoft Fabric.</p>\n<p><strong>Additional Reading:</strong></p>\n<p><a href=\"https://learn.microsoft.com/en-us/azure/databricks/notebooks/\">Databricks notebooks - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/en-us/training/modules/explore-azure-databricks/04-key-concepts\">Understand key concepts | Microsoft Learn</a></p>\n<p><strong>Rationale:</strong></p>\n<p>Databricks notebooks are interactive development environments that enable users to execute code and SQL statements directly against the data in a lakehouse. From within a notebook, you can run queries to explore and analyze data, create tables, such as Delta tables, to persist structured data, and create databases in the metastore by running SQL commands. These actions represent core, in-notebook capabilities that support large-scale analytics workloads. In contrast, creating an additional notebook is a workspace management task performed through the Databricks UI, not from within a running notebook. In addition, creating a schema is intentionally excluded at the DP-900 level to avoid unnecessary conceptual overlap with databases, which are the primary organizational construct emphasized for foundational learners.</p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 5,
+                    "id": 31544,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1296,
+                    "choices": [
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31546,
+                            "text": "Small datasets are handled based on a time window.",
+                            "textHtml": "<p>Small datasets are handled based on a time window.</p>\n",
+                            "isCorrect": false,
+                            "id": 132978,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31546,
+                            "text": "Complex analysis can be performed.",
+                            "textHtml": "<p>Complex analysis can be performed.</p>\n",
+                            "isCorrect": true,
+                            "id": 132979,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31546,
+                            "text": "Individual events are processed.",
+                            "textHtml": "<p>Individual events are processed.</p>\n",
+                            "isCorrect": false,
+                            "id": 132980,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31546,
+                            "text": "Latency is measured in seconds or milliseconds.",
+                            "textHtml": "<p>Latency is measured in seconds or milliseconds.</p>\n",
+                            "isCorrect": false,
+                            "id": 132981,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "4.2_dbb_DP900PA",
+                    "text": "What is a characteristic of batch processing?",
+                    "textHtml": "<p>What is a characteristic of batch processing?</p>\n",
+                    "rationale": "Batch processing is used to execute complex analysis. Batch processing handles a large amount of data at a time. Batch processing is usually measured in minutes and hours.\r\n\r\n[Understand batch and stream processing - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-fundamentals-stream-processing/2-batch-stream)",
+                    "rationaleHtml": "<p>Batch processing is used to execute complex analysis. Batch processing handles a large amount of data at a time. Batch processing is usually measured in minutes and hours.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-fundamentals-stream-processing/2-batch-stream\">Understand batch and stream processing - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31546,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1296,
+                    "choices": [
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31547,
+                            "text": "Azure Databricks",
+                            "textHtml": "<p>Azure Databricks</p>\n",
+                            "isCorrect": false,
+                            "id": 132982,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31547,
+                            "text": "Azure Event Hubs",
+                            "textHtml": "<p>Azure Event Hubs</p>\n",
+                            "isCorrect": true,
+                            "id": 132983,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31547,
+                            "text": "Azure IoT Hub",
+                            "textHtml": "<p>Azure IoT Hub</p>\n",
+                            "isCorrect": true,
+                            "id": 132984,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31547,
+                            "text": "Azure SQL Database",
+                            "textHtml": "<p>Azure SQL Database</p>\n",
+                            "isCorrect": false,
+                            "id": 132985,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "4.2_dbc_DP900PA",
+                    "text": "Which two services can be used as a source for stream processing? Each correct answer presents a complete solution.",
+                    "textHtml": "<p>Which two services can be used as a source for stream processing? Each correct answer presents a complete solution.</p>\n",
+                    "rationale": "Azure IoT Hub and Azure Event Hubs can be used as sources for stream processing. Azure Databricks is used for processing large amounts of data; Azure SQL Database is used to store relational data.\r\n\r\n[Explore common elements of stream processing architecture - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-fundamentals-stream-processing/3-explore-common-elements)",
+                    "rationaleHtml": "<p>Azure IoT Hub and Azure Event Hubs can be used as sources for stream processing. Azure Databricks is used for processing large amounts of data; Azure SQL Database is used to store relational data.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-fundamentals-stream-processing/3-explore-common-elements\">Explore common elements of stream processing architecture - Training | Microsoft Learn</a></p>\n",
+                    "type": "MultiSelect",
+                    "choiceCount": 4,
+                    "id": 31547,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1296,
+                    "choices": [
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31548,
+                            "text": "Azure Cosmos DB",
+                            "textHtml": "<p>Azure Cosmos DB</p>\n",
+                            "isCorrect": false,
+                            "id": 132986,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31548,
+                            "text": "Azure Data Factory",
+                            "textHtml": "<p>Azure Data Factory</p>\n",
+                            "isCorrect": false,
+                            "id": 132987,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31548,
+                            "text": "Azure Stream Analytics",
+                            "textHtml": "<p>Azure Stream Analytics</p>\n",
+                            "isCorrect": true,
+                            "id": 132988,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31548,
+                            "text": "Azure Synapse Analytics",
+                            "textHtml": "<p>Azure Synapse Analytics</p>\n",
+                            "isCorrect": false,
+                            "id": 132989,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "4.2_dbd_DP900PA",
+                    "text": "Which service can you use to perpetually retrieve data from a Kafka queue, process the data, and write the data to Azure Data Lake?",
+                    "textHtml": "<p>Which service can you use to perpetually retrieve data from a Kafka queue, process the data, and write the data to Azure Data Lake?</p>\n",
+                    "rationale": "Stream Analytics can handle stream processing from Kafka to Data Lake. Azure Synapse Analytics does not process streaming data. Azure Cosmos DB does not handle data streaming. Data Factory does not handle streams.\r\n\r\n[Explore Azure Stream Analytics - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-fundamentals-stream-processing/4-stream-analytics)",
+                    "rationaleHtml": "<p>Stream Analytics can handle stream processing from Kafka to Data Lake. Azure Synapse Analytics does not process streaming data. Azure Cosmos DB does not handle data streaming. Data Factory does not handle streams.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-fundamentals-stream-processing/4-stream-analytics\">Explore Azure Stream Analytics - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31548,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1296,
+                    "choices": [
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31551,
+                            "text": "Azure Blob storage",
+                            "textHtml": "<p>Azure Blob storage</p>\n",
+                            "isCorrect": false,
+                            "id": 132999,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31551,
+                            "text": "Azure Delta Lake",
+                            "textHtml": "<p>Azure Delta Lake</p>\n",
+                            "isCorrect": true,
+                            "id": 133000,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31551,
+                            "text": "Azure SQL Database",
+                            "textHtml": "<p>Azure SQL Database</p>\n",
+                            "isCorrect": false,
+                            "id": 133001,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31551,
+                            "text": "Azure Table storage",
+                            "textHtml": "<p>Azure Table storage</p>\n",
+                            "isCorrect": false,
+                            "id": 133002,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "4.2_dbh_DP900PA",
+                    "text": "You are processing data by using batches and streams. \r\n\r\nWhat should you use to ensure that transactional consistency is enforced during the processing?",
+                    "textHtml": "<p>You are processing data by using batches and streams.</p>\n<p>What should you use to ensure that transactional consistency is enforced during the processing?</p>\n",
+                    "rationale": "Delta Lake is an open-source storage layer that adds support to Data Lake Storage for transactional consistency.\r\n\r\n[Explore Apache Spark on Microsoft Azure - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-fundamentals-stream-processing/6-spark-streaming)",
+                    "rationaleHtml": "<p>Delta Lake is an open-source storage layer that adds support to Data Lake Storage for transactional consistency.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-fundamentals-stream-processing/6-spark-streaming\">Explore Apache Spark on Microsoft Azure - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31551,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1296,
+                    "choices": [
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31553,
+                            "text": "batch",
+                            "textHtml": "<p>batch</p>\n",
+                            "isCorrect": false,
+                            "id": 133007,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31553,
+                            "text": "microbatching",
+                            "textHtml": "<p>microbatching</p>\n",
+                            "isCorrect": false,
+                            "id": 133008,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31553,
+                            "text": "real-time",
+                            "textHtml": "<p>real-time</p>\n",
+                            "isCorrect": false,
+                            "id": 133009,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31553,
+                            "text": "stream",
+                            "textHtml": "<p>stream</p>\n",
+                            "isCorrect": true,
+                            "id": 133010,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "4.2_dbj_DP900PA",
+                    "text": "You need to ingest, transform, and visualize data from a continuously generated data source. The solution must minimize latency and administrative effort.\r\n\r\nWhich type of data processing should you use?",
+                    "textHtml": "<p>You need to ingest, transform, and visualize data from a continuously generated data source. The solution must minimize latency and administrative effort.</p>\n<p>Which type of data processing should you use?</p>\n",
+                    "rationale": "**Objective:**\r\n\r\n4.2 Describe consideration for real-time data analytics\r\n\r\n**What This Item Tests:**\r\n\r\nDescribe the difference between batch and streaming data\r\n\r\n**Additional Reading:**\r\n\r\n[Understand batch and stream processing - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/2-batch-stream)  \r\n  \r\n[Stream processing systems | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/cmu-message-queues-streams/3-stream-processing-systems)  \r\n  \r\n[Batch vs. streaming - Training | Microsoft Learn](https://learn.microsoft.com/en-us/azure/databricks/data-engineering/batch-vs-streaming#batch-vs-streaming)  \r\n  \r\n[Streaming dataflows (preview) - Training | Microsoft Learn](https://learn.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-streaming)  \r\n  \r\n[Continuous data ingestion - Training | Microsoft Learn](https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-overview#continuous-data-ingestion)  \r\n\r\n**Rationale:**\r\n\r\nStream processing supports continuously generated data by processing events as they occur, which enables low-latency ingestion, transformation, and visualization while requiring less operational management than interval-based approaches. Batch processing introduces delays because data is collected and processed at scheduled times, and microbatching still processes data in small intervals rather than immediately. Although the term “real-time” is commonly used to describe low-latency scenarios, it is not a formal data processing model; stream processing is the appropriate classification for this type of workload.",
+                    "rationaleHtml": "<p><strong>Objective:</strong></p>\n<p>4.2 Describe consideration for real-time data analytics</p>\n<p><strong>What This Item Tests:</strong></p>\n<p>Describe the difference between batch and streaming data</p>\n<p><strong>Additional Reading:</strong></p>\n<p><a href=\"https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/2-batch-stream\">Understand batch and stream processing - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/en-us/training/modules/cmu-message-queues-streams/3-stream-processing-systems\">Stream processing systems | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/en-us/azure/databricks/data-engineering/batch-vs-streaming#batch-vs-streaming\">Batch vs. streaming - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-streaming\">Streaming dataflows (preview) - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-overview#continuous-data-ingestion\">Continuous data ingestion - Training | Microsoft Learn</a></p>\n<p><strong>Rationale:</strong></p>\n<p>Stream processing supports continuously generated data by processing events as they occur, which enables low-latency ingestion, transformation, and visualization while requiring less operational management than interval-based approaches. Batch processing introduces delays because data is collected and processed at scheduled times, and microbatching still processes data in small intervals rather than immediately. Although the term “real-time” is commonly used to describe low-latency scenarios, it is not a formal data processing model; stream processing is the appropriate classification for this type of workload.</p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31553,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1296,
+                    "choices": [
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31556,
+                            "text": "a cube",
+                            "textHtml": "<p>a cube</p>\n",
+                            "isCorrect": false,
+                            "id": 133019,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31556,
+                            "text": "a dimension",
+                            "textHtml": "<p>a dimension</p>\n",
+                            "isCorrect": false,
+                            "id": 133020,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31556,
+                            "text": "a hierarchy",
+                            "textHtml": "<p>a hierarchy</p>\n",
+                            "isCorrect": true,
+                            "id": 133021,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31556,
+                            "text": "a fact table",
+                            "textHtml": "<p>a fact table</p>\n",
+                            "isCorrect": false,
+                            "id": 133022,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "4.3_dcc_DP900PA",
+                    "text": "What should you create in a data model to allow users to drill up and drill down in a report?",
+                    "textHtml": "<p>What should you create in a data model to allow users to drill up and drill down in a report?</p>\n",
+                    "rationale": "A hierarchy enables drill up and drill down in a dimension. A dimension enables navigation, but hierarchy is used to drill up and down in a dimension. Fact tables have values. Cubes are not created in Microsoft PowerBI.\r\n\r\n[Describe core concepts of data modeling - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-fundamentals-data-visualization/3-data-modeling)",
+                    "rationaleHtml": "<p>A hierarchy enables drill up and drill down in a dimension. A dimension enables navigation, but hierarchy is used to drill up and down in a dimension. Fact tables have values. Cubes are not created in Microsoft PowerBI.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-fundamentals-data-visualization/3-data-modeling\">Describe core concepts of data modeling - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31556,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1296,
+                    "choices": [
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31557,
+                            "text": "Azure Data Factory",
+                            "textHtml": "<p>Azure Data Factory</p>\n",
+                            "isCorrect": false,
+                            "id": 133023,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31557,
+                            "text": "Power BI Desktop",
+                            "textHtml": "<p>Power BI Desktop</p>\n",
+                            "isCorrect": true,
+                            "id": 133024,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31557,
+                            "text": "Power BI Phone App",
+                            "textHtml": "<p>Power BI Phone App</p>\n",
+                            "isCorrect": false,
+                            "id": 133025,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31557,
+                            "text": "the Power BI service",
+                            "textHtml": "<p>the Power BI service</p>\n",
+                            "isCorrect": false,
+                            "id": 133026,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "4.3_dcd_DP900PA",
+                    "text": "What should you use to define an analytical model for Microsoft Power BI?",
+                    "textHtml": "<p>What should you use to define an analytical model for Microsoft Power BI?</p>\n",
+                    "rationale": "Power BI Desktop is used to define analytical models. Phone App is used to view Power BI reports. Power BI Service is used to serve data. Data Factory is used to run ETL jobs.\r\n\r\n[Describe core concepts of data modeling - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-fundamentals-data-visualization/3-data-modeling)",
+                    "rationaleHtml": "<p>Power BI Desktop is used to define analytical models. Phone App is used to view Power BI reports. Power BI Service is used to serve data. Data Factory is used to run ETL jobs.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-fundamentals-data-visualization/3-data-modeling\">Describe core concepts of data modeling - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31557,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1296,
+                    "choices": [
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31558,
+                            "text": "dimensions",
+                            "textHtml": "<p>dimensions</p>\n",
+                            "isCorrect": true,
+                            "id": 133027,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31558,
+                            "text": "facts",
+                            "textHtml": "<p>facts</p>\n",
+                            "isCorrect": false,
+                            "id": 133028,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31558,
+                            "text": "keys",
+                            "textHtml": "<p>keys</p>\n",
+                            "isCorrect": false,
+                            "id": 133029,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31558,
+                            "text": "relationships",
+                            "textHtml": "<p>relationships</p>\n",
+                            "isCorrect": false,
+                            "id": 133030,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "4.3_dce_DP900PA",
+                    "text": "Which data model element represents the entities by which you want to aggregate measures in Microsoft Power BI?",
+                    "textHtml": "<p>Which data model element represents the entities by which you want to aggregate measures in Microsoft Power BI?</p>\n",
+                    "rationale": "Dimensions are used to aggregate data. Fact tables contain measures that are aggregated, not values to aggregate by. A relationship is used to tie facts to dimensions. Keys are used to establish relationships.\r\n\r\n[Describe core concepts of data modeling - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-fundamentals-data-visualization/3-data-modeling)",
+                    "rationaleHtml": "<p>Dimensions are used to aggregate data. Fact tables contain measures that are aggregated, not values to aggregate by. A relationship is used to tie facts to dimensions. Keys are used to establish relationships.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-fundamentals-data-visualization/3-data-modeling\">Describe core concepts of data modeling - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31558,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1296,
+                    "choices": [
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31559,
+                            "text": "a bar chart",
+                            "textHtml": "<p>a bar chart</p>\n",
+                            "isCorrect": true,
+                            "id": 133031,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31559,
+                            "text": "a card",
+                            "textHtml": "<p>a card</p>\n",
+                            "isCorrect": false,
+                            "id": 133032,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31559,
+                            "text": "a column chart",
+                            "textHtml": "<p>a column chart</p>\n",
+                            "isCorrect": true,
+                            "id": 133033,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31559,
+                            "text": "a matrix",
+                            "textHtml": "<p>a matrix</p>\n",
+                            "isCorrect": false,
+                            "id": 133034,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "4.3_dcf_DP900PA",
+                    "text": "Which two visuals in Microsoft Power BI allow you to visually compare numeric values for discrete categories? Each correct answer presents a complete solution.",
+                    "textHtml": "<p>Which two visuals in Microsoft Power BI allow you to visually compare numeric values for discrete categories? Each correct answer presents a complete solution.</p>\n",
+                    "rationale": "Bar charts and column charts allow you to compare numeric values for discrete values. A card is used to track a single number or value. A matrix makes it easier to view data across multiple dimensions. \r\n\r\n[Describe considerations for data visualization - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-fundamentals-data-visualization/4-data-visualizations)",
+                    "rationaleHtml": "<p>Bar charts and column charts allow you to compare numeric values for discrete values. A card is used to track a single number or value. A matrix makes it easier to view data across multiple dimensions.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-fundamentals-data-visualization/4-data-visualizations\">Describe considerations for data visualization - Training | Microsoft Learn</a></p>\n",
+                    "type": "MultiSelect",
+                    "choiceCount": 4,
+                    "id": 31559,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1296,
+                    "choices": [
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31560,
+                            "text": "a card",
+                            "textHtml": "<p>a card</p>\n",
+                            "isCorrect": false,
+                            "id": 133035,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31560,
+                            "text": "a line chart",
+                            "textHtml": "<p>a line chart</p>\n",
+                            "isCorrect": true,
+                            "id": 133036,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31560,
+                            "text": "a pie chart",
+                            "textHtml": "<p>a pie chart</p>\n",
+                            "isCorrect": false,
+                            "id": 133037,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31560,
+                            "text": "a scatter plot",
+                            "textHtml": "<p>a scatter plot</p>\n",
+                            "isCorrect": false,
+                            "id": 133038,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "4.3_dcg_DP900PA",
+                    "text": "Which visual in Microsoft Power BI allows you to view trends, such as changes in sales over time?",
+                    "textHtml": "<p>Which visual in Microsoft Power BI allows you to view trends, such as changes in sales over time?</p>\n",
+                    "rationale": "Line charts are used to compare categorized values, often to show trends over time. Scatter plots are used to compare two numeric measures and identify a relationship or correlation between them. Pie charts are used to show categories as a proportion of a total. Tables are used to display multiple related values.\r\n\r\n[Describe considerations for data visualization - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-fundamentals-data-visualization/4-data-visualizations)",
+                    "rationaleHtml": "<p>Line charts are used to compare categorized values, often to show trends over time. Scatter plots are used to compare two numeric measures and identify a relationship or correlation between them. Pie charts are used to show categories as a proportion of a total. Tables are used to display multiple related values.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-fundamentals-data-visualization/4-data-visualizations\">Describe considerations for data visualization - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31560,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1296,
+                    "choices": [
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31561,
+                            "text": "a dashboard",
+                            "textHtml": "<p>a dashboard</p>\n",
+                            "isCorrect": true,
+                            "id": 133039,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31561,
+                            "text": "a semantic model",
+                            "textHtml": "<p>a semantic model</p>\n",
+                            "isCorrect": false,
+                            "id": 133040,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31561,
+                            "text": "a scorecard",
+                            "textHtml": "<p>a scorecard</p>\n",
+                            "isCorrect": false,
+                            "id": 133041,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1296,
+                            "questionId": 31561,
+                            "text": "a workspace",
+                            "textHtml": "<p>a workspace</p>\n",
+                            "isCorrect": false,
+                            "id": 133042,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "4.3_dch_DP900PA",
+                    "text": "In the Power BI service, what should you create to share a single page with the most important visuals from reports?",
+                    "textHtml": "<p>In the Power BI service, what should you create to share a single page with the most important visuals from reports?</p>\n",
+                    "rationale": "Dashboards are used to combine related reports into a single location for easier visibility into data.\r\n\r\n[Describe Power BI tools and workflow - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-fundamentals-data-visualization/2-power-bi)\r\n\r\n[Describe data warehousing architecture - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/examine-components-of-modern-data-warehouse/2-describe-warehousing)",
+                    "rationaleHtml": "<p>Dashboards are used to combine related reports into a single location for easier visibility into data.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-fundamentals-data-visualization/2-power-bi\">Describe Power BI tools and workflow - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/training/modules/examine-components-of-modern-data-warehouse/2-describe-warehousing\">Describe data warehousing architecture - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31561,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                }
+            ],
+            "title": "Describe an analytics workload",
+            "name": "Describe an analytics workload",
+            "questionsToTake": 15,
+            "questionsToPass": 12,
+            "questionCount": 29,
+            "id": 1296,
+            "createdAtUTC": "0001-01-01T00:00:00"
+        },
+        {
+            "questions": [
+                {
+                    "questionnaireId": 1294,
+                    "choices": [
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31493,
+                            "text": "a foreign key",
+                            "textHtml": "<p>a foreign key</p>\n",
+                            "isCorrect": true,
+                            "id": 132765,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31493,
+                            "text": "a primary key",
+                            "textHtml": "<p>a primary key</p>\n",
+                            "isCorrect": true,
+                            "id": 132766,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31493,
+                            "text": "a unique key",
+                            "textHtml": "<p>a unique key</p>\n",
+                            "isCorrect": false,
+                            "id": 132767,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31493,
+                            "text": "an index key",
+                            "textHtml": "<p>an index key</p>\n",
+                            "isCorrect": false,
+                            "id": 132768,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "2.1_baa_DP900PA",
+                    "text": "Which two keys are needed to create a one-to-many relationship between two tables in a relational database? Each correct answer presents part of the solution.",
+                    "textHtml": "<p>Which two keys are needed to create a one-to-many relationship between two tables in a relational database? Each correct answer presents part of the solution.</p>\n",
+                    "rationale": "A primary key and a foreign key are needed for a one-to-many relationship. You need a primary key that must be unique but is not just a unique key. Index keys are used for searches.\r\n\r\n[Understand normalization - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-relational-data-offerings/3-normalization?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-relational-data)",
+                    "rationaleHtml": "<p>A primary key and a foreign key are needed for a one-to-many relationship. You need a primary key that must be unique but is not just a unique key. Index keys are used for searches.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-relational-data-offerings/3-normalization?ns-enrollment-type=learningpath&amp;ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-relational-data\">Understand normalization - Training | Microsoft Learn</a></p>\n",
+                    "type": "MultiSelect",
+                    "choiceCount": 4,
+                    "id": 31493,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1294,
+                    "choices": [
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31495,
+                            "text": "provides storage for non-structured data",
+                            "textHtml": "<p>provides storage for non-structured data</p>\n",
+                            "isCorrect": false,
+                            "id": 132774,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31495,
+                            "text": "optimizes for complex reads",
+                            "textHtml": "<p>optimizes for complex reads</p>\n",
+                            "isCorrect": false,
+                            "id": 132775,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31495,
+                            "text": "optimizes for updates",
+                            "textHtml": "<p>optimizes for updates</p>\n",
+                            "isCorrect": true,
+                            "id": 132776,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31495,
+                            "text": "uses less storage space",
+                            "textHtml": "<p>uses less storage space</p>\n",
+                            "isCorrect": true,
+                            "id": 132777,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "2.1_bac_DP900PA",
+                    "text": "What are two advantages of using normalization over not using normalization in a relational database? Each correct answer presents a complete solution.",
+                    "textHtml": "<p>What are two advantages of using normalization over not using normalization in a relational database? Each correct answer presents a complete solution.</p>\n",
+                    "rationale": "Normalization uses the least possible amount of storage. Normalization optimizes for updates, inserts, and deletes. Normalization does not optimize for complex reads and does not provide a mechanism for unstructured data.\r\n\r\n[Understand normalization - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-relational-data-offerings/3-normalization)",
+                    "rationaleHtml": "<p>Normalization uses the least possible amount of storage. Normalization optimizes for updates, inserts, and deletes. Normalization does not optimize for complex reads and does not provide a mechanism for unstructured data.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-relational-data-offerings/3-normalization\">Understand normalization - Training | Microsoft Learn</a></p>\n",
+                    "type": "MultiSelect",
+                    "choiceCount": 4,
+                    "id": 31495,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1294,
+                    "choices": [
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31496,
+                            "text": "HAVING",
+                            "textHtml": "<p>HAVING</p>\n",
+                            "isCorrect": false,
+                            "id": 132778,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31496,
+                            "text": "INTERSECT",
+                            "textHtml": "<p>INTERSECT</p>\n",
+                            "isCorrect": false,
+                            "id": 132779,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31496,
+                            "text": "JOIN",
+                            "textHtml": "<p>JOIN</p>\n",
+                            "isCorrect": true,
+                            "id": 132780,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31496,
+                            "text": "UNION",
+                            "textHtml": "<p>UNION</p>\n",
+                            "isCorrect": false,
+                            "id": 132781,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "2.1_bad_DP900PA",
+                    "text": "Which SQL operation is used to combine the content of two tables based on a shared column?",
+                    "textHtml": "<p>Which SQL operation is used to combine the content of two tables based on a shared column?</p>\n",
+                    "rationale": "JOIN is used to combine data from two tables based on a shared key. HAVING is used to filter content from a GROUP BY command. UNION displays the content of two sets of columns from two tables but is not based on a shared key. INTERSECT shows only values that exist in both tables.\r\n\r\n[Explore SQL - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-relational-data-offerings/4-query-with-sql?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-relational-data)\r\n\r\n[SELECT (Transact-SQL) - SQL Server | Microsoft Learn](https://learn.microsoft.com/sql/t-sql/queries/select-transact-sql?view=sql-server-ver16)",
+                    "rationaleHtml": "<p>JOIN is used to combine data from two tables based on a shared key. HAVING is used to filter content from a GROUP BY command. UNION displays the content of two sets of columns from two tables but is not based on a shared key. INTERSECT shows only values that exist in both tables.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-relational-data-offerings/4-query-with-sql?ns-enrollment-type=learningpath&amp;ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-relational-data\">Explore SQL - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/sql/t-sql/queries/select-transact-sql?view=sql-server-ver16\">SELECT (Transact-SQL) - SQL Server | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31496,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1294,
+                    "choices": [
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31497,
+                            "text": "INSERT – VALUES",
+                            "textHtml": "<p>INSERT – VALUES</p>\n",
+                            "isCorrect": false,
+                            "id": 132782,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31497,
+                            "text": "SELECT – HAVING",
+                            "textHtml": "<p>SELECT – HAVING</p>\n",
+                            "isCorrect": false,
+                            "id": 132783,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31497,
+                            "text": "SELECT - INTO",
+                            "textHtml": "<p>SELECT - INTO</p>\n",
+                            "isCorrect": true,
+                            "id": 132784,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31497,
+                            "text": "SELECT - OVER",
+                            "textHtml": "<p>SELECT - OVER</p>\n",
+                            "isCorrect": false,
+                            "id": 132785,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "2.1_bae_DP900PA",
+                    "text": "Which SQL clause can be used to copy all the rows from one table to a new table?",
+                    "textHtml": "<p>Which SQL clause can be used to copy all the rows from one table to a new table?</p>\n",
+                    "rationale": "SELECT - INTO does an insert into a table. SELECT – OVER determines the partitioning and ordering of the rowset before a windowing function is applied. INSERT – VALUES inserts values into a single row. SELECT – HAVING filters data.\r\n\r\n[INTO Clause (Transact-SQL) - SQL Server | Microsoft Learn](https://learn.microsoft.com/sql/t-sql/queries/select-into-clause-transact-sql?view=sql-server-ver16)\r\n\r\n[Explore SQL - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-relational-data-offerings/4-query-with-sql?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-relational-data)",
+                    "rationaleHtml": "<p>SELECT - INTO does an insert into a table. SELECT – OVER determines the partitioning and ordering of the rowset before a windowing function is applied. INSERT – VALUES inserts values into a single row. SELECT – HAVING filters data.</p>\n<p><a href=\"https://learn.microsoft.com/sql/t-sql/queries/select-into-clause-transact-sql?view=sql-server-ver16\">INTO Clause (Transact-SQL) - SQL Server | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-relational-data-offerings/4-query-with-sql?ns-enrollment-type=learningpath&amp;ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-relational-data\">Explore SQL - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31497,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1294,
+                    "choices": [
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31500,
+                            "text": "a function",
+                            "textHtml": "<p>a function</p>\n",
+                            "isCorrect": true,
+                            "id": 132794,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31500,
+                            "text": "a stored procedure",
+                            "textHtml": "<p>a stored procedure</p>\n",
+                            "isCorrect": true,
+                            "id": 132795,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31500,
+                            "text": "a table",
+                            "textHtml": "<p>a table</p>\n",
+                            "isCorrect": false,
+                            "id": 132796,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31500,
+                            "text": "a temporary table",
+                            "textHtml": "<p>a temporary table</p>\n",
+                            "isCorrect": false,
+                            "id": 132797,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31500,
+                            "text": "a view",
+                            "textHtml": "<p>a view</p>\n",
+                            "isCorrect": true,
+                            "id": 132798,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "2.1_bah_DP900PA",
+                    "text": "You have a complex query that selects data from multiple tables. \r\n\r\nWhich three database objects should allow you to reuse the query definition? Each correct answer presents a complete solution.",
+                    "textHtml": "<p>You have a complex query that selects data from multiple tables.</p>\n<p>Which three database objects should allow you to reuse the query definition? Each correct answer presents a complete solution.</p>\n",
+                    "rationale": "A view, a function, and a stored procedure allow you to reuse the query definition for a complex query that selects data from multiple tables. \r\n\r\n[Explore SQL - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-relational-data-offerings/4-query-with-sql)\r\n\r\n[Describe database objects - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-relational-data-offerings/5-database-objects)",
+                    "rationaleHtml": "<p>A view, a function, and a stored procedure allow you to reuse the query definition for a complex query that selects data from multiple tables.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-relational-data-offerings/4-query-with-sql\">Explore SQL - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-relational-data-offerings/5-database-objects\">Describe database objects - Training | Microsoft Learn</a></p>\n",
+                    "type": "MultiSelect",
+                    "choiceCount": 5,
+                    "id": 31500,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1294,
+                    "choices": [
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31504,
+                            "text": "a relationship",
+                            "textHtml": "<p>a relationship</p>\n",
+                            "isCorrect": false,
+                            "id": 132812,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31504,
+                            "text": "a stored procedure",
+                            "textHtml": "<p>a stored procedure</p>\n",
+                            "isCorrect": false,
+                            "id": 132813,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31504,
+                            "text": "a view",
+                            "textHtml": "<p>a view</p>\n",
+                            "isCorrect": true,
+                            "id": 132814,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31504,
+                            "text": "an index",
+                            "textHtml": "<p>an index</p>\n",
+                            "isCorrect": false,
+                            "id": 132815,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "2.1_bal_DP900PA",
+                    "text": "In a relational database, what can you use to create a virtual table from the results of a SELECT statement?",
+                    "textHtml": "<p>In a relational database, what can you use to create a virtual table from the results of a SELECT statement?</p>\n",
+                    "rationale": "A view is a virtual table based on the results of a SELECT query. A stored procedure defines SQL statements that can be run on command. An index helps you search for data in a table. A relationship is an association between two tables.\r\n\r\n[Describe database objects - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-relational-data-offerings/5-database-objects)",
+                    "rationaleHtml": "<p>A view is a virtual table based on the results of a SELECT query. A stored procedure defines SQL statements that can be run on command. An index helps you search for data in a table. A relationship is an association between two tables.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-relational-data-offerings/5-database-objects\">Describe database objects - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31504,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1294,
+                    "choices": [
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31505,
+                            "text": "Azure SQL Database",
+                            "textHtml": "<p>Azure SQL Database</p>\n",
+                            "isCorrect": true,
+                            "id": 132816,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31505,
+                            "text": "Azure SQL Managed Instance",
+                            "textHtml": "<p>Azure SQL Managed Instance</p>\n",
+                            "isCorrect": false,
+                            "id": 132817,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31505,
+                            "text": "SQL Server on Azure Virtual Machines running Linux",
+                            "textHtml": "<p>SQL Server on Azure Virtual Machines running Linux</p>\n",
+                            "isCorrect": false,
+                            "id": 132818,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31505,
+                            "text": "SQL Server on Azure Virtual Machines running Windows Server",
+                            "textHtml": "<p>SQL Server on Azure Virtual Machines running Windows Server</p>\n",
+                            "isCorrect": false,
+                            "id": 132819,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "2.2_bba_DP900PA",
+                    "text": "Which service is managed and serverless, avoids the use of Windows Server licenses, and allows for each workload to have its own instance of the service being used?",
+                    "textHtml": "<p>Which service is managed and serverless, avoids the use of Windows Server licenses, and allows for each workload to have its own instance of the service being used?</p>\n",
+                    "rationale": "Azure SQL Database is a serverless platform as a service (PaaS) SQL instance. SQL Managed Instance is a PaaS service, but databases are maintained in the same SQL Managed Instance cluster. SQL Server on Azure Virtual Machines running Windows or Linux are not serverless options.\r\n\r\n[Identify data services - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-roles-responsibilities-world-of-data/3-data-services)",
+                    "rationaleHtml": "<p>Azure SQL Database is a serverless platform as a service (PaaS) SQL instance. SQL Managed Instance is a PaaS service, but databases are maintained in the same SQL Managed Instance cluster. SQL Server on Azure Virtual Machines running Windows or Linux are not serverless options.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-roles-responsibilities-world-of-data/3-data-services\">Identify data services - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31505,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1294,
+                    "choices": [
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31508,
+                            "text": "CockroachDB",
+                            "textHtml": "<p>CockroachDB</p>\n",
+                            "isCorrect": false,
+                            "id": 132828,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31508,
+                            "text": "CouchDB",
+                            "textHtml": "<p>CouchDB</p>\n",
+                            "isCorrect": false,
+                            "id": 132829,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31508,
+                            "text": "MariaDB",
+                            "textHtml": "<p>MariaDB</p>\n",
+                            "isCorrect": true,
+                            "id": 132830,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31508,
+                            "text": "MySQL",
+                            "textHtml": "<p>MySQL</p>\n",
+                            "isCorrect": true,
+                            "id": 132831,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31508,
+                            "text": "PostgreSQL",
+                            "textHtml": "<p>PostgreSQL</p>\n",
+                            "isCorrect": true,
+                            "id": 132832,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "2.2_bbd_DP900PA",
+                    "text": "Which three open-source databases are available as platform as a service (PaaS) in Azure? Each correct answer presents a complete solution.",
+                    "textHtml": "<p>Which three open-source databases are available as platform as a service (PaaS) in Azure? Each correct answer presents a complete solution.</p>\n",
+                    "rationale": "Azure Database for MariaDB is a PaaS service. Azure Database for MySQL is a PaaS service. Azure Database for PostgreSQL is a PaaS service. You can use CockroachDB and CouchDB on a virtual machine.\r\n\r\n[Describe Azure services for open-source databases - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-provision-deploy-relational-database-offerings-azure/3-azure-database-open-source)\r\n\r\n[What is Azure SQL? - Azure SQL | Microsoft Learn](https://learn.microsoft.com/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview?view=azuresql)",
+                    "rationaleHtml": "<p>Azure Database for MariaDB is a PaaS service. Azure Database for MySQL is a PaaS service. Azure Database for PostgreSQL is a PaaS service. You can use CockroachDB and CouchDB on a virtual machine.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-provision-deploy-relational-database-offerings-azure/3-azure-database-open-source\">Describe Azure services for open-source databases - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview?view=azuresql\">What is Azure SQL? - Azure SQL | Microsoft Learn</a></p>\n",
+                    "type": "MultiSelect",
+                    "choiceCount": 5,
+                    "id": 31508,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1294,
+                    "choices": [
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31510,
+                            "text": "SQL Azure SQL Database",
+                            "textHtml": "<p>SQL Azure SQL Database</p>\n",
+                            "isCorrect": true,
+                            "id": 132837,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31510,
+                            "text": "Azure SQL Managed Instance",
+                            "textHtml": "<p>Azure SQL Managed Instance</p>\n",
+                            "isCorrect": false,
+                            "id": 132838,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31510,
+                            "text": "SQL Server on Azure Virtual Machines",
+                            "textHtml": "<p>SQL Server on Azure Virtual Machines</p>\n",
+                            "isCorrect": false,
+                            "id": 132839,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "2.2_bbf_DP900PA",
+                    "text": "Which data service allows you to create a single database that can scale up and down without downtime?",
+                    "textHtml": "<p>Which data service allows you to create a single database that can scale up and down without downtime?</p>\n",
+                    "rationale": "Azure SQL Database allows you to provision a single database on a dedicated server and has on-demand scalability. SQL Managed Instance can support multiple databases, and SQL Server on Azure Virtual Machines is installed on a virtual machine, where each instance can support multiple databases.\r\n\r\n[Describe Azure SQL services and capabilities - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-provision-deploy-relational-database-offerings-azure/2-azure-sql)\r\n\r\n[Describe Azure services for open-source databases - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-provision-deploy-relational-database-offerings-azure/3-azure-database-open-source)",
+                    "rationaleHtml": "<p>Azure SQL Database allows you to provision a single database on a dedicated server and has on-demand scalability. SQL Managed Instance can support multiple databases, and SQL Server on Azure Virtual Machines is installed on a virtual machine, where each instance can support multiple databases.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-provision-deploy-relational-database-offerings-azure/2-azure-sql\">Describe Azure SQL services and capabilities - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-provision-deploy-relational-database-offerings-azure/3-azure-database-open-source\">Describe Azure services for open-source databases - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 3,
+                    "id": 31510,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1294,
+                    "choices": [
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31512,
+                            "text": "MariaDB",
+                            "textHtml": "<p>MariaDB</p>\n",
+                            "isCorrect": false,
+                            "id": 132843,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31512,
+                            "text": "MySQL",
+                            "textHtml": "<p>MySQL</p>\n",
+                            "isCorrect": false,
+                            "id": 132844,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31512,
+                            "text": "Oracle Database",
+                            "textHtml": "<p>Oracle Database</p>\n",
+                            "isCorrect": false,
+                            "id": 132845,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31512,
+                            "text": "PostgreSQL",
+                            "textHtml": "<p>PostgreSQL</p>\n",
+                            "isCorrect": true,
+                            "id": 132846,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "2.2_bbi_DP900PA",
+                    "text": "Which open-source database is a hybrid relational-object database?",
+                    "textHtml": "<p>Which open-source database is a hybrid relational-object database?</p>\n",
+                    "rationale": "PostgreSQL is a hybrid relational-object database. You can store data in relational tables, or you can store custom data types with non-relational properties.\r\n\r\n[Describe Azure services for open-source databases - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-provision-deploy-relational-database-offerings-azure/3-azure-database-open-source)",
+                    "rationaleHtml": "<p>PostgreSQL is a hybrid relational-object database. You can store data in relational tables, or you can store custom data types with non-relational properties.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-provision-deploy-relational-database-offerings-azure/3-azure-database-open-source\">Describe Azure services for open-source databases - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31512,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1294,
+                    "choices": [
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31514,
+                            "text": "Azure SQL Database",
+                            "textHtml": "<p>Azure SQL Database</p>\n",
+                            "isCorrect": false,
+                            "id": 132851,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31514,
+                            "text": "Azure SQL Edge",
+                            "textHtml": "<p>Azure SQL Edge</p>\n",
+                            "isCorrect": true,
+                            "id": 132852,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31514,
+                            "text": "Azure SQL Managed Instance",
+                            "textHtml": "<p>Azure SQL Managed Instance</p>\n",
+                            "isCorrect": false,
+                            "id": 132853,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1294,
+                            "questionId": 31514,
+                            "text": "SQL Server on Azure Virtual Machines",
+                            "textHtml": "<p>SQL Server on Azure Virtual Machines</p>\n",
+                            "isCorrect": false,
+                            "id": 132854,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "2.2_bbk_DP900PA",
+                    "text": "Which SQL engine is optimized for IoT scenarios?",
+                    "textHtml": "<p>Which SQL engine is optimized for IoT scenarios?</p>\n",
+                    "rationale": "SQL Edge is optimized for IoT scenarios that must work with streaming time series data. SQL Server on Azure Virtual Machinesis is best used when you want to retain control over the server and database configuration. SQL Managed Instance is ideal for cloud migrations where you need minimal change to existing apps. Azure SQL Database is best used for new cloud solutions.\r\n\r\n[Describe Azure SQL services and capabilities - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-provision-deploy-relational-database-offerings-azure/2-azure-sql)",
+                    "rationaleHtml": "<p>SQL Edge is optimized for IoT scenarios that must work with streaming time series data. SQL Server on Azure Virtual Machinesis is best used when you want to retain control over the server and database configuration. SQL Managed Instance is ideal for cloud migrations where you need minimal change to existing apps. Azure SQL Database is best used for new cloud solutions.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-provision-deploy-relational-database-offerings-azure/2-azure-sql\">Describe Azure SQL services and capabilities - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31514,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                }
+            ],
+            "title": "Identify considerations for relational data on Azure",
+            "name": "Identify considerations for relational data on Azure",
+            "questionsToTake": 11,
+            "questionsToPass": 9,
+            "questionCount": 23,
+            "id": 1294,
+            "createdAtUTC": "0001-01-01T00:00:00"
+        },
+        {
+            "questions": [
+                {
+                    "questionnaireId": 1295,
+                    "choices": [
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31518,
+                            "text": "Azure Data Lake Storage Gen2",
+                            "textHtml": "<p>Azure Data Lake Storage Gen2</p>\n",
+                            "isCorrect": false,
+                            "id": 132867,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31518,
+                            "text": "Azure Files",
+                            "textHtml": "<p>Azure Files</p>\n",
+                            "isCorrect": true,
+                            "id": 132868,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31518,
+                            "text": "Azure Storage page blobs",
+                            "textHtml": "<p>Azure Storage page blobs</p>\n",
+                            "isCorrect": false,
+                            "id": 132869,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31518,
+                            "text": "Azure Table storage",
+                            "textHtml": "<p>Azure Table storage</p>\n",
+                            "isCorrect": false,
+                            "id": 132870,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "3.1_cad_DP900PA",
+                    "text": "Which type of Azure Storage is used to store large amounts of files to be shared with virtual machines by using SMB?",
+                    "textHtml": "<p>Which type of Azure Storage is used to store large amounts of files to be shared with virtual machines by using SMB?</p>\n",
+                    "rationale": "Azure Files is used to share files by using NFS and SMB. Data Lake Storage Gen2 is used for storing huge amounts of data to be processed, not to be shared among virtual machines. Page blobs are used for VHDs. Table storage is used for two dimensional tables.\r\n\r\n[Explore Azure Files – Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-provision-deploy-non-relational-data-services-azure/4-azure-files)",
+                    "rationaleHtml": "<p>Azure Files is used to share files by using NFS and SMB. Data Lake Storage Gen2 is used for storing huge amounts of data to be processed, not to be shared among virtual machines. Page blobs are used for VHDs. Table storage is used for two dimensional tables.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-provision-deploy-non-relational-data-services-azure/4-azure-files\">Explore Azure Files – Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31518,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1295,
+                    "choices": [
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31520,
+                            "text": "Archive",
+                            "textHtml": "<p>Archive</p>\n",
+                            "isCorrect": true,
+                            "id": 132875,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31520,
+                            "text": "Cool",
+                            "textHtml": "<p>Cool</p>\n",
+                            "isCorrect": false,
+                            "id": 132876,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31520,
+                            "text": "Hot",
+                            "textHtml": "<p>Hot</p>\n",
+                            "isCorrect": false,
+                            "id": 132877,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "3.1_caf_DP900PA",
+                    "text": "Which Azure Blob storage access tier should you use for data that will be used once per year and can have an access time that takes more than an hour?",
+                    "textHtml": "<p>Which Azure Blob storage access tier should you use for data that will be used once per year and can have an access time that takes more than an hour?</p>\n",
+                    "rationale": "The Archive access tier is intended for data that must be retained but not frequently accessed. It can take more than one hour for this data to be available when accessed.\r\n\r\n[Explore Azure Storage for non-relational data - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-provision-deploy-non-relational-data-services-azure/)",
+                    "rationaleHtml": "<p>The Archive access tier is intended for data that must be retained but not frequently accessed. It can take more than one hour for this data to be available when accessed.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-provision-deploy-non-relational-data-services-azure/\">Explore Azure Storage for non-relational data - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 3,
+                    "id": 31520,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1295,
+                    "choices": [
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31522,
+                            "text": "Each RowKey value is unique within a table.",
+                            "textHtml": "<p>Each RowKey value is unique within a table.</p>\n",
+                            "isCorrect": false,
+                            "id": 132882,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31522,
+                            "text": "Each RowKey value is unique within a table partition.",
+                            "textHtml": "<p>Each RowKey value is unique within a table partition.</p>\n",
+                            "isCorrect": true,
+                            "id": 132883,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31522,
+                            "text": "Items in the same partition are stored in a RowKey order.",
+                            "textHtml": "<p>Items in the same partition are stored in a RowKey order.</p>\n",
+                            "isCorrect": true,
+                            "id": 132884,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31522,
+                            "text": "Tables use indexes to speed up queries.",
+                            "textHtml": "<p>Tables use indexes to speed up queries.</p>\n",
+                            "isCorrect": false,
+                            "id": 132885,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "3.1_cah_DP900PA",
+                    "text": "What are two characteristics of Azure Table storage? Each correct answer presents a complete solution.",
+                    "textHtml": "<p>What are two characteristics of Azure Table storage? Each correct answer presents a complete solution.</p>\n",
+                    "rationale": "RowKey is unique within a partition, not within a table. Items in the same partitions are stored in a row key order. Tables cannot have indexes to speed up queries.\r\n\r\n[Explore Azure Storage for non-relational data - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-provision-deploy-non-relational-data-services-azure/)",
+                    "rationaleHtml": "<p>RowKey is unique within a partition, not within a table. Items in the same partitions are stored in a row key order. Tables cannot have indexes to speed up queries.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-provision-deploy-non-relational-data-services-azure/\">Explore Azure Storage for non-relational data - Training | Microsoft Learn</a></p>\n",
+                    "type": "MultiSelect",
+                    "choiceCount": 4,
+                    "id": 31522,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1295,
+                    "choices": [
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31525,
+                            "text": "a legal hold",
+                            "textHtml": "<p>a legal hold</p>\n",
+                            "isCorrect": false,
+                            "id": 132893,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31525,
+                            "text": "an immutable blob",
+                            "textHtml": "<p>an immutable blob</p>\n",
+                            "isCorrect": true,
+                            "id": 132894,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31525,
+                            "text": "point-in-time restore",
+                            "textHtml": "<p>point-in-time restore</p>\n",
+                            "isCorrect": false,
+                            "id": 132895,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31525,
+                            "text": "soft delete",
+                            "textHtml": "<p>soft delete</p>\n",
+                            "isCorrect": false,
+                            "id": 132896,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "3.1_cak_DP900PA",
+                    "text": "Which Azure Blob Storage feature prevents blobs from being modified or deleted for a specified retention period?",
+                    "textHtml": "<p>Which Azure Blob Storage feature prevents blobs from being modified or deleted for a specified retention period?</p>\n",
+                    "rationale": "**Objective:**\r\n\r\n3.1 Describe the capabilities of Azure storage\r\n\r\n**What This Item Tests:**\r\n\r\nDescribe features of Azure Blob storage\r\n\r\n**Additional Reading:**\r\n\r\n[Security - Training | Microsoft Learn](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-blob-storage#security)\r\n\r\n[Data protection | Microsoft Learn](https://learn.microsoft.com/en-us/azure/storage/blobs/security-recommendations#data-protection)\r\n\r\n**Rationale:**\r\n\r\nBlob Storage supports immutable blobs, which use time-based retention policies to prevent data from being modified or deleted for a specified period. This is commonly used in compliance and data protection scenarios, where data integrity must be preserved. Legal holds prevent deletion but do not enforce time-based immutability, while soft delete and point-in-time restore enable recovery after deletion or modification rather than preventing those actions. Therefore, immutable blobs provide the strongest protection against modification or deletion.",
+                    "rationaleHtml": "<p><strong>Objective:</strong></p>\n<p>3.1 Describe the capabilities of Azure storage</p>\n<p><strong>What This Item Tests:</strong></p>\n<p>Describe features of Azure Blob storage</p>\n<p><strong>Additional Reading:</strong></p>\n<p><a href=\"https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-blob-storage#security\">Security - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/security-recommendations#data-protection\">Data protection | Microsoft Learn</a></p>\n<p><strong>Rationale:</strong></p>\n<p>Blob Storage supports immutable blobs, which use time-based retention policies to prevent data from being modified or deleted for a specified period. This is commonly used in compliance and data protection scenarios, where data integrity must be preserved. Legal holds prevent deletion but do not enforce time-based immutability, while soft delete and point-in-time restore enable recovery after deletion or modification rather than preventing those actions. Therefore, immutable blobs provide the strongest protection against modification or deletion.</p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31525,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1295,
+                    "choices": [
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31527,
+                            "text": "Apache Cassandra",
+                            "textHtml": "<p>Apache Cassandra</p>\n",
+                            "isCorrect": false,
+                            "id": 132901,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31527,
+                            "text": "Apache Gremlin",
+                            "textHtml": "<p>Apache Gremlin</p>\n",
+                            "isCorrect": true,
+                            "id": 132902,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31527,
+                            "text": "MongoDB",
+                            "textHtml": "<p>MongoDB</p>\n",
+                            "isCorrect": false,
+                            "id": 132903,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31527,
+                            "text": "Table",
+                            "textHtml": "<p>Table</p>\n",
+                            "isCorrect": false,
+                            "id": 132904,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "3.2_cbb_DP900PA",
+                    "text": "Which Azure Cosmos DB API should you use for data in a graph structure?",
+                    "textHtml": "<p>Which Azure Cosmos DB API should you use for data in a graph structure?</p>\n",
+                    "rationale": "The Gremlin API is used for graph databases. The MongoDB API stores data in the BSON format. The Table API is used to retrieve key/value pairs. The Cassandra API is used to retrieve tabular data.\r\n\r\n[Identify Azure Cosmos DB APIs – Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-non-relational-data-stores-azure/3-cosmos-db-apis)",
+                    "rationaleHtml": "<p>The Gremlin API is used for graph databases. The MongoDB API stores data in the BSON format. The Table API is used to retrieve key/value pairs. The Cassandra API is used to retrieve tabular data.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-non-relational-data-stores-azure/3-cosmos-db-apis\">Identify Azure Cosmos DB APIs – Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31527,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1295,
+                    "choices": [
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31530,
+                            "text": "Apache Cassandra",
+                            "textHtml": "<p>Apache Cassandra</p>\n",
+                            "isCorrect": false,
+                            "id": 132913,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31530,
+                            "text": "Apache Gremlin",
+                            "textHtml": "<p>Apache Gremlin</p>\n",
+                            "isCorrect": false,
+                            "id": 132914,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31530,
+                            "text": "MongoDB",
+                            "textHtml": "<p>MongoDB</p>\n",
+                            "isCorrect": false,
+                            "id": 132915,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31530,
+                            "text": "Table",
+                            "textHtml": "<p>Table</p>\n",
+                            "isCorrect": true,
+                            "id": 132916,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "3.2_cbe_DP900PA",
+                    "text": "Which Azure Cosmos DB API should you use for data in key/value tables?",
+                    "textHtml": "<p>Which Azure Cosmos DB API should you use for data in key/value tables?</p>\n",
+                    "rationale": "The Table API is used for key/value pairs. The Cassandra API is used for tabular data in a column-family storage. The Gremlin API is used for graph databases. The MongoDB API stores data in the BSON format.\r\n\r\n[Identify Azure Cosmos DB APIs - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-non-relational-data-stores-azure/3-cosmos-db-apis)",
+                    "rationaleHtml": "<p>The Table API is used for key/value pairs. The Cassandra API is used for tabular data in a column-family storage. The Gremlin API is used for graph databases. The MongoDB API stores data in the BSON format.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-non-relational-data-stores-azure/3-cosmos-db-apis\">Identify Azure Cosmos DB APIs - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31530,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1295,
+                    "choices": [
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31531,
+                            "text": "Apache Cassandra",
+                            "textHtml": "<p>Apache Cassandra</p>\n",
+                            "isCorrect": false,
+                            "id": 132917,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31531,
+                            "text": "Apache Gremlin",
+                            "textHtml": "<p>Apache Gremlin</p>\n",
+                            "isCorrect": false,
+                            "id": 132918,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31531,
+                            "text": "NoSQL",
+                            "textHtml": "<p>NoSQL</p>\n",
+                            "isCorrect": true,
+                            "id": 132919,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31531,
+                            "text": "Table",
+                            "textHtml": "<p>Table</p>\n",
+                            "isCorrect": false,
+                            "id": 132920,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "3.2_cbf_DP900PA",
+                    "text": "You need to process many JSON files every minute, while keeping the data from the files accessible by using native queries.\r\n\r\nWhich Azure Cosmos DB API should you use?",
+                    "textHtml": "<p>You need to process many JSON files every minute, while keeping the data from the files accessible by using native queries.</p>\n<p>Which Azure Cosmos DB API should you use?</p>\n",
+                    "rationale": "SQL is the native API in Cosmos DB. It manages data in the JSON format. The Cassandra API uses a column-family storage structure. The Table API is used to work with data in key/value tables. The Gremlin API is used with data in a graph structure.\r\n\r\n[Identify Azure Cosmos DB APIs - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-non-relational-data-stores-azure/3-cosmos-db-apis)",
+                    "rationaleHtml": "<p>SQL is the native API in Cosmos DB. It manages data in the JSON format. The Cassandra API uses a column-family storage structure. The Table API is used to work with data in key/value tables. The Gremlin API is used with data in a graph structure.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-non-relational-data-stores-azure/3-cosmos-db-apis\">Identify Azure Cosmos DB APIs - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31531,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1295,
+                    "choices": [
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31533,
+                            "text": "Azure Blob storage",
+                            "textHtml": "<p>Azure Blob storage</p>\n",
+                            "isCorrect": false,
+                            "id": 132925,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31533,
+                            "text": "Azure Cosmos DB",
+                            "textHtml": "<p>Azure Cosmos DB</p>\n",
+                            "isCorrect": true,
+                            "id": 132926,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31533,
+                            "text": "Azure Data Lake Storage",
+                            "textHtml": "<p>Azure Data Lake Storage</p>\n",
+                            "isCorrect": false,
+                            "id": 132927,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31533,
+                            "text": "Azure SQL Database",
+                            "textHtml": "<p>Azure SQL Database</p>\n",
+                            "isCorrect": false,
+                            "id": 132928,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "3.2_cbh_DP900PA",
+                    "text": "Which storage solution allows you to aggregate data stored in JSON files for use in analytical reports without additional development effort?",
+                    "textHtml": "<p>Which storage solution allows you to aggregate data stored in JSON files for use in analytical reports without additional development effort?</p>\n",
+                    "rationale": "Azure Cosmos DB allows you to aggregate data in analytical reports without additional development. Azure SQL Database does not store data in JSON files. Blob storage and Data Lake Storage do not allow you to aggregate data for analytical reports without additional development effort.\r\n\r\n[Explore fundamentals of Azure Cosmos DB - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-non-relational-data-stores-azure/)",
+                    "rationaleHtml": "<p>Azure Cosmos DB allows you to aggregate data in analytical reports without additional development. Azure SQL Database does not store data in JSON files. Blob storage and Data Lake Storage do not allow you to aggregate data for analytical reports without additional development effort.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-non-relational-data-stores-azure/\">Explore fundamentals of Azure Cosmos DB - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31533,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1295,
+                    "choices": [
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31534,
+                            "text": "Apache Cassandra",
+                            "textHtml": "<p>Apache Cassandra</p>\n",
+                            "isCorrect": false,
+                            "id": 132929,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31534,
+                            "text": "Apache Gremlin",
+                            "textHtml": "<p>Apache Gremlin</p>\n",
+                            "isCorrect": true,
+                            "id": 132930,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31534,
+                            "text": "NoSQL",
+                            "textHtml": "<p>NoSQL</p>\n",
+                            "isCorrect": false,
+                            "id": 132931,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1295,
+                            "questionId": 31534,
+                            "text": "Table",
+                            "textHtml": "<p>Table</p>\n",
+                            "isCorrect": false,
+                            "id": 132932,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "3.2_cbi_DP900PA",
+                    "text": "Which Azure Cosmos DB API allows you to work with vertices and edges?",
+                    "textHtml": "<p>Which Azure Cosmos DB API allows you to work with vertices and edges?</p>\n",
+                    "rationale": "Gremlin is used for data in a graph. Entities are defined as vertices that form nodes. Nodes are connected by edges that represent relationships.\r\n\r\n[Explore Azure Storage for non-relational data - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-provision-deploy-non-relational-data-services-azure/)\r\n\r\n[Explore fundamentals of Azure Cosmos DB - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-non-relational-data-stores-azure/)",
+                    "rationaleHtml": "<p>Gremlin is used for data in a graph. Entities are defined as vertices that form nodes. Nodes are connected by edges that represent relationships.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-provision-deploy-non-relational-data-services-azure/\">Explore Azure Storage for non-relational data - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-non-relational-data-stores-azure/\">Explore fundamentals of Azure Cosmos DB - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31534,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                }
+            ],
+            "title": "Describe considerations for working with non-relational data on Azure",
+            "name": "Describe considerations for working with non-relational data on Azure",
+            "questionsToTake": 9,
+            "questionsToPass": 7,
+            "questionCount": 19,
+            "id": 1295,
+            "createdAtUTC": "0001-01-01T00:00:00"
+        },
+        {
+            "questions": [
+                {
+                    "questionnaireId": 1293,
+                    "choices": [
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31465,
+                            "text": "document database",
+                            "textHtml": "<p>document database</p>\n",
+                            "isCorrect": false,
+                            "id": 132657,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31465,
+                            "text": "graph database",
+                            "textHtml": "<p>graph database</p>\n",
+                            "isCorrect": false,
+                            "id": 132658,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31465,
+                            "text": "key/value store",
+                            "textHtml": "<p>key/value store</p>\n",
+                            "isCorrect": true,
+                            "id": 132659,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31465,
+                            "text": "relational database",
+                            "textHtml": "<p>relational database</p>\n",
+                            "isCorrect": false,
+                            "id": 132660,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "1.1_aab_DP900PA",
+                    "text": "Which type of data structure allows you to store data in a two-column format without requiring a complex database management system?",
+                    "textHtml": "<p>Which type of data structure allows you to store data in a two-column format without requiring a complex database management system?</p>\n",
+                    "rationale": "A key/value store is used for simple lookups based on a single key to obtain a single value. A relational database is the best option for create, read, update, and delete (CRUD) operations and uses the least amount of storage space, but our solution does not require a database management system (DBMS) on the browser. A document database used unstructured data such as JSON, and optimized for retrieval, not CRUD operations. A graph database is used to store hierarchical data, such as organizational charts that have nodes and edges.\r\n\r\n[Explore databases - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-core-data-concepts/4-databases?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-core-data-concepts)\r\n\r\n[Understand data store models - Azure Application Architecture Guide | Microsoft Learn](https://learn.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview)",
+                    "rationaleHtml": "<p>A key/value store is used for simple lookups based on a single key to obtain a single value. A relational database is the best option for create, read, update, and delete (CRUD) operations and uses the least amount of storage space, but our solution does not require a database management system (DBMS) on the browser. A document database used unstructured data such as JSON, and optimized for retrieval, not CRUD operations. A graph database is used to store hierarchical data, such as organizational charts that have nodes and edges.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-core-data-concepts/4-databases?ns-enrollment-type=learningpath&amp;ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-core-data-concepts\">Explore databases - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview\">Understand data store models - Azure Application Architecture Guide | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31465,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1293,
+                    "choices": [
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31467,
+                            "text": "Azure Cosmos DB for Apache Gremlin",
+                            "textHtml": "<p>Azure Cosmos DB for Apache Gremlin</p>\n",
+                            "isCorrect": false,
+                            "id": 132665,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31467,
+                            "text": "Azure Blob storage",
+                            "textHtml": "<p>Azure Blob storage</p>\n",
+                            "isCorrect": true,
+                            "id": 132666,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31467,
+                            "text": "Azure SQL Database",
+                            "textHtml": "<p>Azure SQL Database</p>\n",
+                            "isCorrect": false,
+                            "id": 132667,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31467,
+                            "text": "Azure Table storage",
+                            "textHtml": "<p>Azure Table storage</p>\n",
+                            "isCorrect": false,
+                            "id": 132668,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "1.1_aad_DP900PA",
+                    "text": "Which Azure data service is best used to store images, PDF files, and static JSON files?",
+                    "textHtml": "<p>Which Azure data service is best used to store images, PDF files, and static JSON files?</p>\n",
+                    "rationale": "Blob storage is the best option for file storage. Table storage is not suited for files. Azure Cosmos DB for Apache Gremlin is used to store hierarchical data, such as organizational charts that have nodes and edges. Azure SQL Database is the best option for create, read, update, and delete (CRUD) operations and uses the least amount of storage space, but our solution does not require a database management system (DBMS).\r\n\r\n[Identify data services - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-roles-responsibilities-world-of-data/3-data-services)\r\n\r\n[Understand data store models - Azure Application Architecture Guide | Microsoft Learn](https://learn.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview)",
+                    "rationaleHtml": "<p>Blob storage is the best option for file storage. Table storage is not suited for files. Azure Cosmos DB for Apache Gremlin is used to store hierarchical data, such as organizational charts that have nodes and edges. Azure SQL Database is the best option for create, read, update, and delete (CRUD) operations and uses the least amount of storage space, but our solution does not require a database management system (DBMS).</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-roles-responsibilities-world-of-data/3-data-services\">Identify data services - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview\">Understand data store models - Azure Application Architecture Guide | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31467,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1293,
+                    "choices": [
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31469,
+                            "text": "semi-structured",
+                            "textHtml": "<p>semi-structured</p>\n",
+                            "isCorrect": true,
+                            "id": 132672,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31469,
+                            "text": "structured",
+                            "textHtml": "<p>structured</p>\n",
+                            "isCorrect": false,
+                            "id": 132673,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31469,
+                            "text": "unstructured",
+                            "textHtml": "<p>unstructured</p>\n",
+                            "isCorrect": false,
+                            "id": 132674,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "1.1_aaf_DP900PA",
+                    "text": "You have data that describes products and is stored in JSON documents. The product structure changes over time as new attributes are added.\r\n\r\nWhich type of data do you have?",
+                    "textHtml": "<p>You have data that describes products and is stored in JSON documents. The product structure changes over time as new attributes are added.</p>\n<p>Which type of data do you have?</p>\n",
+                    "rationale": "Semi-structured data has some structure but allows for variations between entity instances. A common format for semi-structured data is JSON.\r\n\r\n[Identify data formats - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-core-data-concepts/2-data-formats?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-core-data-concepts)",
+                    "rationaleHtml": "<p>Semi-structured data has some structure but allows for variations between entity instances. A common format for semi-structured data is JSON.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-core-data-concepts/2-data-formats?ns-enrollment-type=learningpath&amp;ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-core-data-concepts\">Identify data formats - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 3,
+                    "id": 31469,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1293,
+                    "choices": [
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31470,
+                            "text": "semi-structured",
+                            "textHtml": "<p>semi-structured</p>\n",
+                            "isCorrect": false,
+                            "id": 132675,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31470,
+                            "text": "structured",
+                            "textHtml": "<p>structured</p>\n",
+                            "isCorrect": false,
+                            "id": 132676,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31470,
+                            "text": "unstructured",
+                            "textHtml": "<p>unstructured</p>\n",
+                            "isCorrect": true,
+                            "id": 132677,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "1.1_aag_DP900PA",
+                    "text": "You have a folder that contains documents, images, and audio files.\r\n\r\nWhich type of data do you have?",
+                    "textHtml": "<p>You have a folder that contains documents, images, and audio files.</p>\n<p>Which type of data do you have?</p>\n",
+                    "rationale": "Unstructured data contains data such as documents, images, audio data, video data, and binary files.\r\n\r\n[Identify data formats - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-core-data-concepts/2-data-formats?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-core-data-concepts)",
+                    "rationaleHtml": "<p>Unstructured data contains data such as documents, images, audio data, video data, and binary files.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-core-data-concepts/2-data-formats?ns-enrollment-type=learningpath&amp;ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-core-data-concepts\">Identify data formats - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 3,
+                    "id": 31470,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1293,
+                    "choices": [
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31471,
+                            "text": "semi-structured",
+                            "textHtml": "<p>semi-structured</p>\n",
+                            "isCorrect": false,
+                            "id": 132678,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31471,
+                            "text": "structured",
+                            "textHtml": "<p>structured</p>\n",
+                            "isCorrect": false,
+                            "id": 132679,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31471,
+                            "text": "unstructured",
+                            "textHtml": "<p>unstructured</p>\n",
+                            "isCorrect": true,
+                            "id": 132680,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "1.1_aah_DP900PA",
+                    "text": "Which type of data should be sent from video cameras in a native binary format?",
+                    "textHtml": "<p>Which type of data should be sent from video cameras in a native binary format?</p>\n",
+                    "rationale": "Unstructured data contains data such as documents, images, audio data, video data, and binary files.\r\n\r\n[Identify data formats - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-core-data-concepts/2-data-formats?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-core-data-concepts)",
+                    "rationaleHtml": "<p>Unstructured data contains data such as documents, images, audio data, video data, and binary files.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-core-data-concepts/2-data-formats?ns-enrollment-type=learningpath&amp;ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-core-data-concepts\">Identify data formats - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 3,
+                    "id": 31471,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1293,
+                    "choices": [
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31473,
+                            "text": "Azure SQL Database",
+                            "textHtml": "<p>Azure SQL Database</p>\n",
+                            "isCorrect": false,
+                            "id": 132685,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31473,
+                            "text": "Azure Table storage",
+                            "textHtml": "<p>Azure Table storage</p>\n",
+                            "isCorrect": false,
+                            "id": 132686,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31473,
+                            "text": "Document Database",
+                            "textHtml": "<p>Document Database</p>\n",
+                            "isCorrect": false,
+                            "id": 132687,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31473,
+                            "text": "Graph Database",
+                            "textHtml": "<p>Graph Database</p>\n",
+                            "isCorrect": true,
+                            "id": 132688,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "1.2_abb_DP900PA",
+                    "text": "Which is the best type of database to use for an organizational chart?",
+                    "textHtml": "<p>Which is the best type of database to use for an organizational chart?</p>\n",
+                    "rationale": "Graph databases are the best option for hierarchical data. Azure SQL Database is the best option for create, read, update, and delete (CRUD) operations and uses the least amount of storage space, but our solution does not require a database management system (DBMS). Document database is best for unstructured data. Table storage is not suited for files.\r\n\r\n[Explore databases - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-core-data-concepts/4-databases?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-core-data-concepts)\r\n\r\n[Understand data store models - Azure Application Architecture Guide | Microsoft Learn](https://learn.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview)",
+                    "rationaleHtml": "<p>Graph databases are the best option for hierarchical data. Azure SQL Database is the best option for create, read, update, and delete (CRUD) operations and uses the least amount of storage space, but our solution does not require a database management system (DBMS). Document database is best for unstructured data. Table storage is not suited for files.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-core-data-concepts/4-databases?ns-enrollment-type=learningpath&amp;ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-core-data-concepts\">Explore databases - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview\">Understand data store models - Azure Application Architecture Guide | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31473,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1293,
+                    "choices": [
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31475,
+                            "text": "Azure Table storage",
+                            "textHtml": "<p>Azure Table storage</p>\n",
+                            "isCorrect": false,
+                            "id": 132693,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31475,
+                            "text": "Graph Database",
+                            "textHtml": "<p>Graph Database</p>\n",
+                            "isCorrect": false,
+                            "id": 132694,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31475,
+                            "text": "OLAP Database",
+                            "textHtml": "<p>OLAP Database</p>\n",
+                            "isCorrect": true,
+                            "id": 132695,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31475,
+                            "text": "OLTP Database",
+                            "textHtml": "<p>OLTP Database</p>\n",
+                            "isCorrect": false,
+                            "id": 132696,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "1.2_abd_DP900PA",
+                    "text": "You design an application that needs to store data based on the following requirements:\r\n\r\n- Store historical data from multiple data sources.\r\n- Load data on a scheduled basis.\r\n- Use a denormalized star or snowflake schema.\r\n\r\nWhich type of database should you use?",
+                    "textHtml": "<p>You design an application that needs to store data based on the following requirements:</p>\n<ul>\n<li>Store historical data from multiple data sources.</li>\n<li>Load data on a scheduled basis.</li>\n<li>Use a denormalized star or snowflake schema.</li>\n</ul>\n<p>Which type of database should you use?</p>\n",
+                    "rationale": "OLAP databases are used for snowflake schemas with historical data. Table storage is not suited for this type of data. Graph databases are used to store hierarchical data, such as organizational charts that have nodes and edges. OLTP databases are used for create, read, update, and delete (CRUD) operations, use the least amount of storage space, and are not for historical data in a snowflake schema.\r\n\r\n[Explore analytical data processing - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-core-data-concepts/6-analytical-processing)\r\n\r\n[Understand data store models - Azure Application Architecture Guide | Microsoft Learn](https://learn.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview)",
+                    "rationaleHtml": "<p>OLAP databases are used for snowflake schemas with historical data. Table storage is not suited for this type of data. Graph databases are used to store hierarchical data, such as organizational charts that have nodes and edges. OLTP databases are used for create, read, update, and delete (CRUD) operations, use the least amount of storage space, and are not for historical data in a snowflake schema.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-core-data-concepts/6-analytical-processing\">Explore analytical data processing - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview\">Understand data store models - Azure Application Architecture Guide | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31475,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1293,
+                    "choices": [
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31478,
+                            "text": "Apache Gremlin",
+                            "textHtml": "<p>Apache Gremlin</p>\n",
+                            "isCorrect": true,
+                            "id": 132704,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31478,
+                            "text": "MongoDB",
+                            "textHtml": "<p>MongoDB</p>\n",
+                            "isCorrect": false,
+                            "id": 132705,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31478,
+                            "text": "NoSQL",
+                            "textHtml": "<p>NoSQL</p>\n",
+                            "isCorrect": false,
+                            "id": 132706,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31478,
+                            "text": "Table",
+                            "textHtml": "<p>Table</p>\n",
+                            "isCorrect": false,
+                            "id": 132707,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "1.2_abh_DP900PA",
+                    "text": "Which Azure Cosmos DB API allows you to implement a non-relational database and model nodes that have relationships between them?",
+                    "textHtml": "<p>Which Azure Cosmos DB API allows you to implement a non-relational database and model nodes that have relationships between them?</p>\n",
+                    "rationale": "Azure Cosmos DB for Apache Gremlin allows you to implement a non-relational database to model nodes and the relationships between them.\r\n\r\n[Explore file storage - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-core-data-concepts/3-file-storage)\r\n\r\n[Explore databases - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-core-data-concepts/4-databases)\r\n\r\n[Introduction - Azure Cosmos DB for Apache Gremlin | Microsoft Learn](https://learn.microsoft.com/azure/cosmos-db/gremlin/introduction)",
+                    "rationaleHtml": "<p>Azure Cosmos DB for Apache Gremlin allows you to implement a non-relational database to model nodes and the relationships between them.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-core-data-concepts/3-file-storage\">Explore file storage - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-core-data-concepts/4-databases\">Explore databases - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/azure/cosmos-db/gremlin/introduction\">Introduction - Azure Cosmos DB for Apache Gremlin | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31478,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1293,
+                    "choices": [
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31479,
+                            "text": "Always Encrypted",
+                            "textHtml": "<p>Always Encrypted</p>\n",
+                            "isCorrect": false,
+                            "id": 132708,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31479,
+                            "text": "dynamic data masking",
+                            "textHtml": "<p>dynamic data masking</p>\n",
+                            "isCorrect": false,
+                            "id": 132709,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31479,
+                            "text": "row-level security (RLS)",
+                            "textHtml": "<p>row-level security (RLS)</p>\n",
+                            "isCorrect": true,
+                            "id": 132710,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31479,
+                            "text": "Transparent Data Encryption (TDE)",
+                            "textHtml": "<p>Transparent Data Encryption (TDE)</p>\n",
+                            "isCorrect": false,
+                            "id": 132711,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "1.2_abi_DP900PA",
+                    "text": "Which Azure SQL Database feature ensures that users can see only their own rows when multiple customers share the same tables?",
+                    "textHtml": "<p>Which Azure SQL Database feature ensures that users can see only their own rows when multiple customers share the same tables?</p>\n",
+                    "rationale": "**Objective:**\r\n\r\n1.2 Identify options for data storage\r\n\r\n**What This Item Tests:**\r\n\r\nIdentify Azure datastores for common use cases\r\n\r\n**Additional Reading:**\r\n\r\n[Row-level security - Training | Microsoft Learn](https://learn.microsoft.com/en-us/sql/relational-databases/security/row-level-security)\r\n\r\n**Rationale:**\r\n\r\nAzure SQL Database supports RLS, which restricts access to rows in a table based on a user’s identity or execution context. This enables multiple customers to share the same tables, while ensuring that each customer can see only their own data. Dynamic data masking hides sensitive values but does not prevent access to rows, Always Encrypted protects data at rest and in use but does not filter query results, and TDE protects data at rest only. Therefore, RLS is the correct feature.",
+                    "rationaleHtml": "<p><strong>Objective:</strong></p>\n<p>1.2 Identify options for data storage</p>\n<p><strong>What This Item Tests:</strong></p>\n<p>Identify Azure datastores for common use cases</p>\n<p><strong>Additional Reading:</strong></p>\n<p><a href=\"https://learn.microsoft.com/en-us/sql/relational-databases/security/row-level-security\">Row-level security - Training | Microsoft Learn</a></p>\n<p><strong>Rationale:</strong></p>\n<p>Azure SQL Database supports RLS, which restricts access to rows in a table based on a user’s identity or execution context. This enables multiple customers to share the same tables, while ensuring that each customer can see only their own data. Dynamic data masking hides sensitive values but does not prevent access to rows, Always Encrypted protects data at rest and in use but does not filter query results, and TDE protects data at rest only. Therefore, RLS is the correct feature.</p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31479,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1293,
+                    "choices": [
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31481,
+                            "text": "highly denormalized",
+                            "textHtml": "<p>highly denormalized</p>\n",
+                            "isCorrect": true,
+                            "id": 132716,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31481,
+                            "text": "highly normalized",
+                            "textHtml": "<p>highly normalized</p>\n",
+                            "isCorrect": false,
+                            "id": 132717,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31481,
+                            "text": "optimized for create, read, update, and delete (CRUD) operations",
+                            "textHtml": "<p>optimized for create, read, update, and delete (CRUD) operations</p>\n",
+                            "isCorrect": false,
+                            "id": 132718,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31481,
+                            "text": "optimized for read operations",
+                            "textHtml": "<p>optimized for read operations</p>\n",
+                            "isCorrect": true,
+                            "id": 132719,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "1.3_acb_DP900PA",
+                    "text": "Which two attributes are characteristics of an analytical data workload? Each correct answer presents a complete solution.",
+                    "textHtml": "<p>Which two attributes are characteristics of an analytical data workload? Each correct answer presents a complete solution.</p>\n",
+                    "rationale": "Analytical data workloads are highly denormalized and are optimized for read operations.\r\n\r\n[Explore analytical data processing - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-core-data-concepts/6-analytical-processing)\r\n\r\n[Online transaction processing (OLTP) - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/azure/architecture/data-guide/relational-data/online-transaction-processing)",
+                    "rationaleHtml": "<p>Analytical data workloads are highly denormalized and are optimized for read operations.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-core-data-concepts/6-analytical-processing\">Explore analytical data processing - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/azure/architecture/data-guide/relational-data/online-transaction-processing\">Online transaction processing (OLTP) - Azure Architecture Center | Microsoft Learn</a></p>\n",
+                    "type": "MultiSelect",
+                    "choiceCount": 4,
+                    "id": 31481,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1293,
+                    "choices": [
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31484,
+                            "text": "Read and write operations are optimized.",
+                            "textHtml": "<p>Read and write operations are optimized.</p>\n",
+                            "isCorrect": false,
+                            "id": 132728,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31484,
+                            "text": "Read operations are optimized.",
+                            "textHtml": "<p>Read operations are optimized.</p>\n",
+                            "isCorrect": true,
+                            "id": 132729,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31484,
+                            "text": "They calculate business metrics over time.",
+                            "textHtml": "<p>They calculate business metrics over time.</p>\n",
+                            "isCorrect": true,
+                            "id": 132730,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31484,
+                            "text": "They operate on current data.",
+                            "textHtml": "<p>They operate on current data.</p>\n",
+                            "isCorrect": false,
+                            "id": 132731,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31484,
+                            "text": "They operate on historical data.",
+                            "textHtml": "<p>They operate on historical data.</p>\n",
+                            "isCorrect": true,
+                            "id": 132732,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "1.3_ace_DP900PA",
+                    "text": "What are three properties of analytical data workloads? Each correct answer presents a complete solution.",
+                    "textHtml": "<p>What are three properties of analytical data workloads? Each correct answer presents a complete solution.</p>\n",
+                    "rationale": "Analytical data workloads operate on historical data, are optimized for read operations, and calculate business metrics over time. Read and write operations are optimized for transactional data workloads.\r\n\r\n[Explore transactional data processing - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-core-data-concepts/5-transactional-data-processing)\r\n\r\n[Explore analytical data processing - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-core-data-concepts/6-analytical-processing)",
+                    "rationaleHtml": "<p>Analytical data workloads operate on historical data, are optimized for read operations, and calculate business metrics over time. Read and write operations are optimized for transactional data workloads.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-core-data-concepts/5-transactional-data-processing\">Explore transactional data processing - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-core-data-concepts/6-analytical-processing\">Explore analytical data processing - Training | Microsoft Learn</a></p>\n",
+                    "type": "MultiSelect",
+                    "choiceCount": 5,
+                    "id": 31484,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1293,
+                    "choices": [
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31485,
+                            "text": "atomicity",
+                            "textHtml": "<p>atomicity</p>\n",
+                            "isCorrect": false,
+                            "id": 132733,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31485,
+                            "text": "consistency",
+                            "textHtml": "<p>consistency</p>\n",
+                            "isCorrect": false,
+                            "id": 132734,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31485,
+                            "text": "durability",
+                            "textHtml": "<p>durability</p>\n",
+                            "isCorrect": false,
+                            "id": 132735,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31485,
+                            "text": "isolation",
+                            "textHtml": "<p>isolation</p>\n",
+                            "isCorrect": true,
+                            "id": 132736,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "1.3_acf_DP900PA",
+                    "text": "Which feature of transactional data processing guarantees that concurrent processes cannot see the data in an inconsistent state?",
+                    "textHtml": "<p>Which feature of transactional data processing guarantees that concurrent processes cannot see the data in an inconsistent state?</p>\n",
+                    "rationale": "Isolation in transactional data processing ensures that concurrent transactions cannot interfere with one another and must result in a consistent database state.  \r\nAtomicity: A transaction must be treated as a single, indivisible unit, it either completes fully or not at all.   \r\nConsistency: A transaction must bring the database from one valid state to another valid state, maintaining all defined rules, constraints, and data integrity.   \r\nDurability: Once a transaction is committed, its changes are permanent, even if the system crashes immediately afterward.  \r\n\r\n[Explore transactional data processing - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-core-data-concepts/5-transactional-data-processing)\r\n\r\n[Explore analytical data processing - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-core-data-concepts/6-analytical-processing)",
+                    "rationaleHtml": "<p>Isolation in transactional data processing ensures that concurrent transactions cannot interfere with one another and must result in a consistent database state.<br />\nAtomicity: A transaction must be treated as a single, indivisible unit, it either completes fully or not at all.<br />\nConsistency: A transaction must bring the database from one valid state to another valid state, maintaining all defined rules, constraints, and data integrity.<br />\nDurability: Once a transaction is committed, its changes are permanent, even if the system crashes immediately afterward.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-core-data-concepts/5-transactional-data-processing\">Explore transactional data processing - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-core-data-concepts/6-analytical-processing\">Explore analytical data processing - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31485,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1293,
+                    "choices": [
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31486,
+                            "text": "line-of-business (LOB) applications",
+                            "textHtml": "<p>line-of-business (LOB) applications</p>\n",
+                            "isCorrect": true,
+                            "id": 132737,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31486,
+                            "text": "live applications",
+                            "textHtml": "<p>live applications</p>\n",
+                            "isCorrect": true,
+                            "id": 132738,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31486,
+                            "text": "reports presenting business metrics",
+                            "textHtml": "<p>reports presenting business metrics</p>\n",
+                            "isCorrect": false,
+                            "id": 132739,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31486,
+                            "text": "reports presenting OLAP measures",
+                            "textHtml": "<p>reports presenting OLAP measures</p>\n",
+                            "isCorrect": false,
+                            "id": 132740,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "1.3_acg_DP900PA",
+                    "text": "Which two types of applications are used in transactional systems? Each correct answer presents a complete solution.",
+                    "textHtml": "<p>Which two types of applications are used in transactional systems? Each correct answer presents a complete solution.</p>\n",
+                    "rationale": "Live applications are used in transactional data processing systems. LOB applications are a type of live application that processes business data.\r\n\r\n[Explore transactional data processing - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-core-data-concepts/5-transactional-data-processing)\r\n\r\n[Explore analytical data processing - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-core-data-concepts/6-analytical-processing)",
+                    "rationaleHtml": "<p>Live applications are used in transactional data processing systems. LOB applications are a type of live application that processes business data.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-core-data-concepts/5-transactional-data-processing\">Explore transactional data processing - Training | Microsoft Learn</a></p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-core-data-concepts/6-analytical-processing\">Explore analytical data processing - Training | Microsoft Learn</a></p>\n",
+                    "type": "MultiSelect",
+                    "choiceCount": 4,
+                    "id": 31486,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1293,
+                    "choices": [
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31487,
+                            "text": "database administrator",
+                            "textHtml": "<p>database administrator</p>\n",
+                            "isCorrect": false,
+                            "id": 132741,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31487,
+                            "text": "database analyst",
+                            "textHtml": "<p>database analyst</p>\n",
+                            "isCorrect": false,
+                            "id": 132742,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31487,
+                            "text": "database engineer",
+                            "textHtml": "<p>database engineer</p>\n",
+                            "isCorrect": true,
+                            "id": 132743,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31487,
+                            "text": "database user",
+                            "textHtml": "<p>database user</p>\n",
+                            "isCorrect": false,
+                            "id": 132744,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "1.4_ada_DP900PA",
+                    "text": "Which job role is responsible for designing database solutions, creating databases, and developing stored procedures?",
+                    "textHtml": "<p>Which job role is responsible for designing database solutions, creating databases, and developing stored procedures?</p>\n",
+                    "rationale": "Database engineers create databases. Database analysts use data from a database to make business decisions. Database users use a database. Database administrators maintain existing databases.\r\n\r\n[Explore job roles in the world of data - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-roles-responsibilities-world-of-data/2-explore-job-roles)",
+                    "rationaleHtml": "<p>Database engineers create databases. Database analysts use data from a database to make business decisions. Database users use a database. Database administrators maintain existing databases.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-roles-responsibilities-world-of-data/2-explore-job-roles\">Explore job roles in the world of data - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31487,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                },
+                {
+                    "questionnaireId": 1293,
+                    "choices": [
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31491,
+                            "text": "database administrator",
+                            "textHtml": "<p>database administrator</p>\n",
+                            "isCorrect": false,
+                            "id": 132757,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31491,
+                            "text": "data analyst",
+                            "textHtml": "<p>data analyst</p>\n",
+                            "isCorrect": false,
+                            "id": 132758,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31491,
+                            "text": "data engineer",
+                            "textHtml": "<p>data engineer</p>\n",
+                            "isCorrect": true,
+                            "id": 132759,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        },
+                        {
+                            "questionnaireId": 1293,
+                            "questionId": 31491,
+                            "text": "database user",
+                            "textHtml": "<p>database user</p>\n",
+                            "isCorrect": false,
+                            "id": 132760,
+                            "locale": "en-us",
+                            "createdAtUTC": "0001-01-01T00:00:00"
+                        }
+                    ],
+                    "name": "1.4_ade_DP900PA",
+                    "text": "Which job role is responsible for managing data privacy, monitoring data stores, and monitoring data pipelines?",
+                    "textHtml": "<p>Which job role is responsible for managing data privacy, monitoring data stores, and monitoring data pipelines?</p>\n",
+                    "rationale": "A data engineer manages data privacy, monitoring data stores and data pipelines. A data analyst is responsible for building data models, cleaning and transforming data, and finding hidden data patterns. A database administrator manages data security, implementing backup and recovery plans and monitoring the performance of database solutions. Database users use a database.\r\n\r\n[Explore job roles in the world of data - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/explore-roles-responsibilities-world-of-data/2-explore-job-roles)",
+                    "rationaleHtml": "<p>A data engineer manages data privacy, monitoring data stores and data pipelines. A data analyst is responsible for building data models, cleaning and transforming data, and finding hidden data patterns. A database administrator manages data security, implementing backup and recovery plans and monitoring the performance of database solutions. Database users use a database.</p>\n<p><a href=\"https://learn.microsoft.com/training/modules/explore-roles-responsibilities-world-of-data/2-explore-job-roles\">Explore job roles in the world of data - Training | Microsoft Learn</a></p>\n",
+                    "type": "SingleSelect",
+                    "choiceCount": 4,
+                    "id": 31491,
+                    "locale": "en-us",
+                    "createdAtUTC": "0001-01-01T00:00:00"
+                }
+            ],
+            "title": "Describe core data concepts",
+            "name": "Describe core data concepts",
+            "questionsToTake": 15,
+            "questionsToPass": 12,
+            "questionCount": 29,
+            "id": 1293,
+            "createdAtUTC": "0001-01-01T00:00:00"
+        }
+    ],
+    "sessionUid": "d93c96e7-be12-440a-bb54-d2bda1e6a8ce",
+    "title": "Practice Assessment for Exam DP-900: Microsoft Azure Data Fundamentals",
+    "examId": "exam.du-mmy",
+    "locale": "en-us",
+    "version": "15",
+    "userSessionStart": "0001-01-01T00:00:00",
+    "userSessionDate": "0001-01-01T00:00:00"
+}

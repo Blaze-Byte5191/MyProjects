@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Question Viewer</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.question {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+h1 {
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>Assessment Questions</h1>
+
+<div id="questions"></div>
+
+<script>
+fetch("questions.json")
+.then(response => response.json())
+.then(data => {
+
+    const container = document.getElementById("questions");
+    let questionNumber = 1;
+
+    data.questionnaires.forEach(questionnaire => {
+
+        questionnaire.questions.forEach(question => {
+
+            const div = document.createElement("div");
+            div.className = "question";
+
+            let html = `
+                <h3>Question ${questionNumber}</h3>
+                <p>${question.text}</p>
+                <ul>
+            `;
+
+            question.choices.forEach(choice => {
+
+                if(choice.isCorrect){
+                    html += `<li class="correct">✅ ${choice.text}</li>`;
+                } else {
+                    html += `<li>${choice.text}</li>`;
+                }
+
+            });
+
+            html += "</ul>";
+
+            if(question.rationale){
+                html += `
+                    <p>
+                        <strong>Explanation:</strong><br>
+                        ${question.rationale}
+                    </p>
+                `;
+            }
+
+            div.innerHTML = html;
+            container.appendChild(div);
+
+            questionNumber++;
+        });
+
+    });
+
+})
+.catch(error => {
+    console.error(error);
+    document.body.innerHTML += "<p>Failed to load questions.json</p>";
+});
+</script>
+
+</body>
+</html>

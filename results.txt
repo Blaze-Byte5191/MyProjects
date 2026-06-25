@@ -1,0 +1,567 @@
+
+========================================
+QUESTION 1
+========================================
+Which service is built on Apache Spark and is compatible with other cloud providers?
+
+A. Azure Data Factory
+B. Azure Databricks <-- CORRECT
+C. Azure HDInsight
+D. Azure Synapse Analytics
+
+
+========================================
+QUESTION 2
+========================================
+Which type of data store uses star schemas, fact tables, and dimension tables?
+
+A. data lake
+B. data warehouse <-- CORRECT
+C. cube
+D. relational database
+
+
+========================================
+QUESTION 3
+========================================
+Which two services allow you to pre-process a large volume of data by using Scala? Each correct answer presents a complete solution.
+
+A. a serverless Apache Spark pool in Azure Synapse Analytics <-- CORRECT
+B. Azure Databricks <-- CORRECT
+C. A dedicated SQL pool in Azure Synapse Analytics
+D. The serverless SQL pool in Azure Synapse Analytics
+
+
+========================================
+QUESTION 4
+========================================
+Which three actions can you perform directly from an Azure Databricks notebook? Each correct answer presents a complete solution.
+
+A. Create a database. <-- CORRECT
+B. Create a schema.
+C. Create a table.
+D. Create an additional notebook.
+E. Run queries.
+
+
+========================================
+QUESTION 5
+========================================
+What is a characteristic of batch processing?
+
+A. Small datasets are handled based on a time window.
+B. Complex analysis can be performed. <-- CORRECT
+C. Individual events are processed.
+D. Latency is measured in seconds or milliseconds.
+
+
+========================================
+QUESTION 6
+========================================
+Which two services can be used as a source for stream processing? Each correct answer presents a complete solution.
+
+A. Azure Databricks
+B. Azure Event Hubs <-- CORRECT
+C. Azure IoT Hub <-- CORRECT
+D. Azure SQL Database
+
+
+========================================
+QUESTION 7
+========================================
+Which service can you use to perpetually retrieve data from a Kafka queue, process the data, and write the data to Azure Data Lake?
+
+A. Azure Cosmos DB
+B. Azure Data Factory
+C. Azure Stream Analytics <-- CORRECT
+D. Azure Synapse Analytics
+
+
+========================================
+QUESTION 8
+========================================
+You are processing data by using batches and streams. 
+
+What should you use to ensure that transactional consistency is enforced during the processing?
+
+A. Azure Blob storage
+B. Azure Delta Lake <-- CORRECT
+C. Azure SQL Database
+D. Azure Table storage
+
+
+========================================
+QUESTION 9
+========================================
+You need to ingest, transform, and visualize data from a continuously generated data source. The solution must minimize latency and administrative effort.
+
+Which type of data processing should you use?
+
+A. batch
+B. microbatching
+C. real-time
+D. stream <-- CORRECT
+
+
+========================================
+QUESTION 10
+========================================
+What should you create in a data model to allow users to drill up and drill down in a report?
+
+A. a cube
+B. a dimension
+C. a hierarchy <-- CORRECT
+D. a fact table
+
+
+========================================
+QUESTION 11
+========================================
+What should you use to define an analytical model for Microsoft Power BI?
+
+A. Azure Data Factory
+B. Power BI Desktop <-- CORRECT
+C. Power BI Phone App
+D. the Power BI service
+
+
+========================================
+QUESTION 12
+========================================
+Which data model element represents the entities by which you want to aggregate measures in Microsoft Power BI?
+
+A. dimensions <-- CORRECT
+B. facts
+C. keys
+D. relationships
+
+
+========================================
+QUESTION 13
+========================================
+Which two visuals in Microsoft Power BI allow you to visually compare numeric values for discrete categories? Each correct answer presents a complete solution.
+
+A. a bar chart <-- CORRECT
+B. a card
+C. a column chart <-- CORRECT
+D. a matrix
+
+
+========================================
+QUESTION 14
+========================================
+Which visual in Microsoft Power BI allows you to view trends, such as changes in sales over time?
+
+A. a card
+B. a line chart <-- CORRECT
+C. a pie chart
+D. a scatter plot
+
+
+========================================
+QUESTION 15
+========================================
+In the Power BI service, what should you create to share a single page with the most important visuals from reports?
+
+A. a dashboard <-- CORRECT
+B. a semantic model
+C. a scorecard
+D. a workspace
+
+
+========================================
+QUESTION 16
+========================================
+Which two keys are needed to create a one-to-many relationship between two tables in a relational database? Each correct answer presents part of the solution.
+
+A. a foreign key <-- CORRECT
+B. a primary key <-- CORRECT
+C. a unique key
+D. an index key
+
+
+========================================
+QUESTION 17
+========================================
+What are two advantages of using normalization over not using normalization in a relational database? Each correct answer presents a complete solution.
+
+A. provides storage for non-structured data
+B. optimizes for complex reads
+C. optimizes for updates <-- CORRECT
+D. uses less storage space <-- CORRECT
+
+
+========================================
+QUESTION 18
+========================================
+Which SQL operation is used to combine the content of two tables based on a shared column?
+
+A. HAVING
+B. INTERSECT
+C. JOIN <-- CORRECT
+D. UNION
+
+
+========================================
+QUESTION 19
+========================================
+Which SQL clause can be used to copy all the rows from one table to a new table?
+
+A. INSERT – VALUES
+B. SELECT – HAVING
+C. SELECT - INTO <-- CORRECT
+D. SELECT - OVER
+
+
+========================================
+QUESTION 20
+========================================
+You have a complex query that selects data from multiple tables. 
+
+Which three database objects should allow you to reuse the query definition? Each correct answer presents a complete solution.
+
+A. a function <-- CORRECT
+B. a stored procedure <-- CORRECT
+C. a table
+D. a temporary table
+E. a view <-- CORRECT
+
+
+========================================
+QUESTION 21
+========================================
+In a relational database, what can you use to create a virtual table from the results of a SELECT statement?
+
+A. a relationship
+B. a stored procedure
+C. a view <-- CORRECT
+D. an index
+
+
+========================================
+QUESTION 22
+========================================
+Which service is managed and serverless, avoids the use of Windows Server licenses, and allows for each workload to have its own instance of the service being used?
+
+A. Azure SQL Database <-- CORRECT
+B. Azure SQL Managed Instance
+C. SQL Server on Azure Virtual Machines running Linux
+D. SQL Server on Azure Virtual Machines running Windows Server
+
+
+========================================
+QUESTION 23
+========================================
+Which three open-source databases are available as platform as a service (PaaS) in Azure? Each correct answer presents a complete solution.
+
+A. CockroachDB
+B. CouchDB
+C. MariaDB <-- CORRECT
+D. MySQL <-- CORRECT
+E. PostgreSQL <-- CORRECT
+
+
+========================================
+QUESTION 24
+========================================
+Which data service allows you to create a single database that can scale up and down without downtime?
+
+A. SQL Azure SQL Database <-- CORRECT
+B. Azure SQL Managed Instance
+C. SQL Server on Azure Virtual Machines
+
+
+========================================
+QUESTION 25
+========================================
+Which open-source database is a hybrid relational-object database?
+
+A. MariaDB
+B. MySQL
+C. Oracle Database
+D. PostgreSQL <-- CORRECT
+
+
+========================================
+QUESTION 26
+========================================
+Which SQL engine is optimized for IoT scenarios?
+
+A. Azure SQL Database
+B. Azure SQL Edge <-- CORRECT
+C. Azure SQL Managed Instance
+D. SQL Server on Azure Virtual Machines
+
+
+========================================
+QUESTION 27
+========================================
+Which type of Azure Storage is used to store large amounts of files to be shared with virtual machines by using SMB?
+
+A. Azure Data Lake Storage Gen2
+B. Azure Files <-- CORRECT
+C. Azure Storage page blobs
+D. Azure Table storage
+
+
+========================================
+QUESTION 28
+========================================
+Which Azure Blob storage access tier should you use for data that will be used once per year and can have an access time that takes more than an hour?
+
+A. Archive <-- CORRECT
+B. Cool
+C. Hot
+
+
+========================================
+QUESTION 29
+========================================
+What are two characteristics of Azure Table storage? Each correct answer presents a complete solution.
+
+A. Each RowKey value is unique within a table.
+B. Each RowKey value is unique within a table partition. <-- CORRECT
+C. Items in the same partition are stored in a RowKey order. <-- CORRECT
+D. Tables use indexes to speed up queries.
+
+
+========================================
+QUESTION 30
+========================================
+Which Azure Blob Storage feature prevents blobs from being modified or deleted for a specified retention period?
+
+A. a legal hold
+B. an immutable blob <-- CORRECT
+C. point-in-time restore
+D. soft delete
+
+
+========================================
+QUESTION 31
+========================================
+Which Azure Cosmos DB API should you use for data in a graph structure?
+
+A. Apache Cassandra
+B. Apache Gremlin <-- CORRECT
+C. MongoDB
+D. Table
+
+
+========================================
+QUESTION 32
+========================================
+Which Azure Cosmos DB API should you use for data in key/value tables?
+
+A. Apache Cassandra
+B. Apache Gremlin
+C. MongoDB
+D. Table <-- CORRECT
+
+
+========================================
+QUESTION 33
+========================================
+You need to process many JSON files every minute, while keeping the data from the files accessible by using native queries.
+
+Which Azure Cosmos DB API should you use?
+
+A. Apache Cassandra
+B. Apache Gremlin
+C. NoSQL <-- CORRECT
+D. Table
+
+
+========================================
+QUESTION 34
+========================================
+Which storage solution allows you to aggregate data stored in JSON files for use in analytical reports without additional development effort?
+
+A. Azure Blob storage
+B. Azure Cosmos DB <-- CORRECT
+C. Azure Data Lake Storage
+D. Azure SQL Database
+
+
+========================================
+QUESTION 35
+========================================
+Which Azure Cosmos DB API allows you to work with vertices and edges?
+
+A. Apache Cassandra
+B. Apache Gremlin <-- CORRECT
+C. NoSQL
+D. Table
+
+
+========================================
+QUESTION 36
+========================================
+Which type of data structure allows you to store data in a two-column format without requiring a complex database management system?
+
+A. document database
+B. graph database
+C. key/value store <-- CORRECT
+D. relational database
+
+
+========================================
+QUESTION 37
+========================================
+Which Azure data service is best used to store images, PDF files, and static JSON files?
+
+A. Azure Cosmos DB for Apache Gremlin
+B. Azure Blob storage <-- CORRECT
+C. Azure SQL Database
+D. Azure Table storage
+
+
+========================================
+QUESTION 38
+========================================
+You have data that describes products and is stored in JSON documents. The product structure changes over time as new attributes are added.
+
+Which type of data do you have?
+
+A. semi-structured <-- CORRECT
+B. structured
+C. unstructured
+
+
+========================================
+QUESTION 39
+========================================
+You have a folder that contains documents, images, and audio files.
+
+Which type of data do you have?
+
+A. semi-structured
+B. structured
+C. unstructured <-- CORRECT
+
+
+========================================
+QUESTION 40
+========================================
+Which type of data should be sent from video cameras in a native binary format?
+
+A. semi-structured
+B. structured
+C. unstructured <-- CORRECT
+
+
+========================================
+QUESTION 41
+========================================
+Which is the best type of database to use for an organizational chart?
+
+A. Azure SQL Database
+B. Azure Table storage
+C. Document Database
+D. Graph Database <-- CORRECT
+
+
+========================================
+QUESTION 42
+========================================
+You design an application that needs to store data based on the following requirements:
+
+- Store historical data from multiple data sources.
+- Load data on a scheduled basis.
+- Use a denormalized star or snowflake schema.
+
+Which type of database should you use?
+
+A. Azure Table storage
+B. Graph Database
+C. OLAP Database <-- CORRECT
+D. OLTP Database
+
+
+========================================
+QUESTION 43
+========================================
+Which Azure Cosmos DB API allows you to implement a non-relational database and model nodes that have relationships between them?
+
+A. Apache Gremlin <-- CORRECT
+B. MongoDB
+C. NoSQL
+D. Table
+
+
+========================================
+QUESTION 44
+========================================
+Which Azure SQL Database feature ensures that users can see only their own rows when multiple customers share the same tables?
+
+A. Always Encrypted
+B. dynamic data masking
+C. row-level security (RLS) <-- CORRECT
+D. Transparent Data Encryption (TDE)
+
+
+========================================
+QUESTION 45
+========================================
+Which two attributes are characteristics of an analytical data workload? Each correct answer presents a complete solution.
+
+A. highly denormalized <-- CORRECT
+B. highly normalized
+C. optimized for create, read, update, and delete (CRUD) operations
+D. optimized for read operations <-- CORRECT
+
+
+========================================
+QUESTION 46
+========================================
+What are three properties of analytical data workloads? Each correct answer presents a complete solution.
+
+A. Read and write operations are optimized.
+B. Read operations are optimized. <-- CORRECT
+C. They calculate business metrics over time. <-- CORRECT
+D. They operate on current data.
+E. They operate on historical data. <-- CORRECT
+
+
+========================================
+QUESTION 47
+========================================
+Which feature of transactional data processing guarantees that concurrent processes cannot see the data in an inconsistent state?
+
+A. atomicity
+B. consistency
+C. durability
+D. isolation <-- CORRECT
+
+
+========================================
+QUESTION 48
+========================================
+Which two types of applications are used in transactional systems? Each correct answer presents a complete solution.
+
+A. line-of-business (LOB) applications <-- CORRECT
+B. live applications <-- CORRECT
+C. reports presenting business metrics
+D. reports presenting OLAP measures
+
+
+========================================
+QUESTION 49
+========================================
+Which job role is responsible for designing database solutions, creating databases, and developing stored procedures?
+
+A. database administrator
+B. database analyst
+C. database engineer <-- CORRECT
+D. database user
+
+
+========================================
+QUESTION 50
+========================================
+Which job role is responsible for managing data privacy, monitoring data stores, and monitoring data pipelines?
+
+A. database administrator
+B. data analyst
+C. data engineer <-- CORRECT
+D. database user
+
