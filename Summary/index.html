@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Summary</title>
+</head>
+<body>
+
+<section>   
+<h1>
+    Summary
+</h1>
+<p>
+    This is a simple summary page.<br>The dp900 exam consists mainly of 10 topics
+</p>
+</section>
+
+
+
+<!--OLTP vs OLAP-->
+<section>   
+<h2>
+    OLTP vs OLAP
+</h2>
+<p>
+    OLTP (Online Transaction Processing) systems are designed for fast, 
+    reliable handling of day-to-day transactions (like banking, retail, reservations),
+    while OLAP (Online Analytical Processing) systems are optimized for analyzing large volumes of historical data to 
+    support decision-making and reporting.
+</p>
+<table>
+    <tr>
+        <th>Purpose</th>
+        <th>OLTP</th>
+        <th>OLAP</th>
+    </tr>
+    <tr>
+        <td>Main Use</td>
+        <td>Processing daily transactions</td>
+        <td>Analyzing historical data</td>
+    </tr>
+    <tr>
+        <td>Focus</td>
+        <td>Speed & reliability</td>
+        <td>Insights & reporting</td>
+    </tr>
+    <tr>
+        <td>Data Model</td>
+        <td>Relational Databases</td>
+        <td>Multidimentional Cubes</td>
+    </tr>
+    <tr>
+        <td>Operations</td>
+        <td>Insert, Update, Delete</td>
+        <td>Read-heavy queries</td>
+    </tr>
+    <tr>
+        <td>Data Volume</td>
+        <td>Small, current records</td>
+        <td>Large historical datasets</td>
+    </tr>
+    <tr>
+        <td>Performance</td>
+        <td>Quick response time</td>
+        <td>Throughput for complex queries</td>
+    </tr>
+    <tr>
+        <td>Architecture</td>
+        <td>Client-server, write optimised</td>
+        <td>Data warehouse, read-optimised</td>
+    </tr>
+    <tr>
+        <td>Examples</td>
+        <td>Banking, e-commerce, reservations</td>
+        <td>Business intelligence, forecasting, trend analysis</td>
+    </tr>
+</table>
+<p>
+    In Short:<br>OLTP keeps businesses running smoothly in real time, 
+    while OLAP helps leaders understand patterns and make strategic decisions. 
+</p>
+</section>
+
+
+
+<!--Relational vs Non-Relational Databases(NoSQL)-->
+<section>
+<h2>
+    Relational vs Non-Relational Databases(NoSQL)
+</h2>
+<p>
+    Relational databases (SQL) focus on structured, 
+    consistent data with fixed schemas, while NoSQL databases emphasize flexibility, scalability, 
+    and handling unstructured or semi-structured data. In practice, 
+    relational systems are best for financial transactions and complex queries, 
+    while NoSQL shines in large-scale applications like social media, IoT, and real-time analytics.
+</p>
+<table>
+    <tr>
+        <th>Aspect</th>
+        <th>Relational (SQL)</th>
+        <th>Non-Relational (NoSQL)</th>
+    </tr>
+    <tr>
+        <td>Data Model</td>
+        <td>Tables (rows & columns)</td>
+        <td>Document, Key-Value, Graph</td>
+    </tr>
+    <tr>
+        <td>Schema</td>
+        <td>Rigid, predefined</td>
+        <td>Flexible, dynamic</td>
+    </tr>
+    <tr>
+        <td>Query Language</td>
+        <td>SQL</td>
+        <td>Varies (MongoDB Aggregation, Cypher)</td>
+    </tr>
+    <tr>
+        <td>Consistency</td>
+        <td>ACID (strong)</td>
+        <td>BASE (eventual)</td>
+    </tr>
+    <tr>
+        <td>Scalability</td>
+        <td>Vertical scaling(scale-up)</td>
+        <td>Horizontal scaling(scale-out)</td>
+    </tr>
+    <tr>
+        <td>Relationships</td>
+        <td>Supported via JOINs</td>
+        <td>Limited, often denormalized</td>
+    </tr>
+    <tr>
+        <td>Transactions</td>
+        <td>Complex, nested</td>
+        <td>Simple, lightweight</td>
+    </tr>
+    <tr>
+        <td>Best Use Cases</td>
+        <td>Financial systems, inventory, reporting</td>
+        <td>Social media, IoT, big data apps</td>
+    </tr>
+</table>
+<h3>
+    Key Considerations
+</h3>
+<ul>
+    Use Relational databases when data integrity is critical, schemas are stable, 
+    and complex relationships are needed.
+</ul>
+<ul>
+    Use NoSQL databases when speed, scale, and flexibility are more important than strict consistency.
+</ul>
+<h3>
+    Risks & Trade-offs
+</h3>
+<ul>
+    Relational: Scaling vertically can become expensive; rigid schemas slow down rapid prototyping.
+</ul>
+<ul>
+    NoSQL: Eventual consistency may not suit financial or mission-critical systems; 
+    JOINs are limited, making complex queries harder.
+</ul>
+</section>
+
+
+
+<!--Azure SQL Database vs Managed Instance vs SQL VM-->
+<section>
+    <h2>
+        Azure SQL Database vs Managed Instance vs SQL VM
+    </h2>
+<table>
+    <tr>
+        <th></th>
+        <th>Azure SQL Database</th>
+        <th>Managed Instance</th>
+        <th>SQL VM</th>
+    </tr>
+    <tr>
+        <td>Deployment</td>
+    </tr>
+    <tr>
+        <td>Model</td>
+        <td>Platform as a Service</td>
+        <td>Platform as a Service</td>
+        <td>Infrastructure as a Service</td>
+    </tr>
+    <tr>
+        <td>Use Case</td>
+        <td>New cloud apps</td>
+        <td>Migrate existing SQL workloads</td>
+        <td>Lift-and-shift legacy apps</td>
+    </tr>
+    <tr>
+        <td>Compatibility</td>
+        <td>Partial SQL features</td>
+        <td>~100% SQL Server features</td>
+        <td>Full SQL + OS control</td>
+    </tr>
+    <tr>
+        <td>Management</td>
+    </tr>
+    <tr>
+        <td>Updates</td>
+        <td>Automatic</td>
+        <td>Automatic</td>
+        <td>Manual</td>
+    </tr>
+    <tr>
+        <td>Backups</td>
+        <td>Built-in</td>
+        <td>Built-in</td>
+        <td>Custom setup</td>
+    </tr>
+    <tr>
+        <td>Scaling</td>
+        <td>Elastic pools, serverless</td>
+        <td>Instance-level scaling</td>
+        <td>VM size scaling</td>
+    </tr>
+    <tr>
+        <td>Control</td>
+        <td>Limited</td>
+        <td>Moderate</td>
+        <td>Full OS + SQL control</td>
+    </tr>
+    <tr>
+        <td>Features</td>
+    </tr>
+    <tr>
+        <td>High Availability</td>
+        <td>Built-in HA</td>
+        <td>Built-in HA</td>
+        <td>Manual setup</td>
+    </tr>
+    <tr>
+        <td>Security</td>
+        <td>Advanced built-in</td>
+        <td>Advanced built-in</td>
+        <td>Customizable</td>
+    </tr>
+    <tr>
+        <td>Custom Config</td>
+        <td>No</td>
+        <td>Limited</td>
+        <td>Yes</td>
+    </tr>
+    <tr>
+        <td>Pricing</td>
+    </tr>
+    <tr>
+        <td>Cost Model</td>
+        <td>Pay-per-use</td>
+        <td>Instance pricing</td>
+        <td>VM + SQL licensing</td>
+    </tr>
+</table>
+<h3>
+    Key Decision Points
+</h3>
+<ul>
+    Choose Azure SQL Database if you're building new SaaS or modern apps and want minimal management overhead.
+</ul>
+<ul>
+    Choose Managed Instance if you're migrating existing SQL Server workloads and need high compatibility 
+    with features like SQL Agent or cross-database queries.
+</ul>
+<ul>
+    Choose SQL VM if you require full OS-level control, custom configurations, or specific SQL Server versions.
+</ul>
+</section>
+
+
+
+<!--Blob Storage vs Files vs Table Storage-->
+<section>
+    <h2>
+        Blob Storage vs Files vs Table Storage
+    </h2>
+    <p>
+        Azure Blob Storage is best for massive unstructured data (like images, videos, backups), 
+        Azure Files is ideal for shared file systems accessible via SMB/NFS, 
+        and Azure Table Storage is a low-cost NoSQL option for key-value lookups. 
+        The right choice depends on whether you need scalability, traditional file sharing, 
+        or fast semi-structured queries.
+    </p>
+    <table>
+        <tr>
+            <th>Data Type</th>
+            <th>Blob Storage</th>
+            <th>Azure Files</th>
+            <th>Table Storage</th>
+        </tr>
+        <tr>
+            <td>Best For</td>
+            <td>Images, videos, backups</td>
+            <td>Shared config, legacy apps</td>
+            <td>Telemetry, metadata</td>
+        </tr>
+        <tr>
+            <td>Structure</td>
+            <td>Unstructured blobs</td>
+            <td>Hierarchical files</td>
+            <td>Key-value pairs</td>
+        </tr>
+        <tr>
+            <td>Access Protocol</td>
+            <td>HTTP/HTTPS</td>
+            <td>SMB/NFS</td>
+            <td>REST API</td>
+        </tr>
+        <tr>
+            <td>Scalability</td>
+            <td>Petabyte scale</td>
+            <td>Limited by share size</td>
+            <td>High for simple queries</td>
+        </tr>
+        <tr>
+            <td>Performance</td>
+            <td>Optimized for throughput</td>
+            <td>File-level access</td>
+            <td>Fast single-row lookups</td>
+        </tr>
+        <tr>
+            <td>Cost Efficiency</td>
+            <td>Tiered pricing (Hot, Cool, Archive)</td>
+            <td>Moderate</td>
+            <td>Very low</td>
+        </tr>
+        <tr>
+            <td>Integration</td>
+            <td>CDN, backup, analytics</td>
+            <td>VMs, containers, hybrid sync</td>
+            <td>Apps needing NoSQL store</td>
+        </tr>
+        <tr>
+            <td>Limitations</td>
+            <td>Not for relational queries</td>
+            <td>Not for high-IOPS DBs</td>
+            <td>No JOINs or complex queries</td>
+        </tr>
+    </table>
+    <h3>
+        Key Takeaways
+    </h3>
+    <ul>
+        Blob Storage: Best for storing large, unstructured data with flexible access tiers (Hot, Cool, Archive).
+    </ul>
+    <ul>
+        Azure Files: Perfect for lift-and-shift migrations or shared file access across multiple VMs/containers.
+    </ul>
+    <ul>
+        Table Storage: A cost-effective NoSQL store for simple, fast key-value lookups.
+    </ul>
+</section>
+
+
+
+<!--Cosmos DB API's-->
+<section>
+    <h2>
+        Cosmos DB API's
+    </h2>
+    <p>
+        Azure Cosmos DB supports multiple APIs — SQL (Core), MongoDB, Cassandra, Gremlin 
+        and Table — each designed to match different data models and workloads. 
+        The choice depends on whether you need document queries, 
+        graph traversal, wide-column storage, or key-value lookups
+    </p>
+    <table>
+        <tr>
+            <th></th>
+            <th>SQL (Core)</th>
+            <th>MongoDB</th>
+            <th>Cassandra</th>
+            <th>Gremlin</th>
+        </tr>
+        <tr>
+            <td>Data Model</td>
+        </tr>
+        <tr>
+            <td>Structure</td>
+            <td>JSON documents</td>
+            <td>JSON documents</td>
+            <td>Wide-column tables</td>
+            <td>Vertices & edges</td>
+        </tr>
+        <tr>
+            <td>Query Language</td>
+            <td>SQL-like</td>
+            <td>MongoDB queries</td>
+            <td>CQL</td>
+            <td>Gremlin traversal</td>
+        </tr>
+        <tr>
+            <td>Best For</td>
+            <td>General NoSQL apps</td>
+            <td>Existing MongoDB apps</td>
+            <td>IoT & time-series</td>
+            <td>Social networks, fraud detection</td>
+        </tr>
+        <tr>
+            <td>Compatibility</td>
+        </tr>
+        <tr>
+            <td>Tools</td>
+            <td>Cosmos SDK</td>
+            <td>MongoDB drivers</td>
+            <td>Cassandra drivers</td>
+            <td>Gremlin libraries</td>
+        </tr>
+        <tr>
+            <td>Migration Ease</td>
+            <td>Moderate</td>
+            <td>High</td>
+            <td>Moderate</td>
+            <td>Low</td>
+        </tr>
+        <tr>
+            <td>Features</td>
+        </tr>
+        <tr>
+            <td>Indexing</td>
+            <td>Automatic</td>
+            <td>MongoDB native</td>
+            <td>Secondary indexes</td>
+            <td>Graph indexing</td>
+        </tr>
+        <tr>
+            <td>Global Distribution</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Consistency Levels</td>
+            <td>5 options</td>
+            <td>MongoDB-like</td>
+            <td>Cassandra-like</td>
+            <td>Strong/Bounded</td>
+        </tr>
+    </table>
+    <h3>
+        Key Takeaways
+    </h3>
+    <ul>
+        SQL (Core): Best for new NoSQL apps needing flexible schemas and rich queries
+    </ul>
+    <ul>
+        MongoDB API: Ideal for teams already using MongoDB, offering wire protocol compatibility
+    </ul>
+    <ul>
+        Cassandra API: Suited for high-volume, distributed workloads like IoT or telemetry
+    </ul>
+    <ul>
+        Gremlin API: Perfect for graph-based applications with complex relationships
+    </ul>
+    <ul>
+        Table API: Modernized Azure Table Storage with global distribution and premium features
+    </ul>
+</section>
+
+
+
+<!--Data Warehouse vs Data Lake-->
+<section>
+    <h2>
+        Data Warehouse vs Data Lake
+    </h2>
+    <p>
+        A data warehouse stores structured, processed data for fast reporting and analytics, 
+        while a data lake holds raw, unstructured or semi-structured data for flexible exploration, AI 
+        and machine learning. 
+        In practice, enterprises often use both together: the lake for scale and experimentation, 
+        the warehouse for trusted insights.
+    </p>
+    <table>
+        <tr>
+            <th></th>
+            <th>Data Warehouse</th>
+            <th>Data Lake</th>
+        </tr>
+        <tr>
+            <td>Data Type</td>
+            <td>Processed, structured</td>
+            <td>Raw, all formats</td>
+        </tr>
+        <tr>
+            <td>Schema</td>
+            <td>Schema-on-write</td>
+            <td>Schema-on-read</td>
+        </tr>
+        <tr>
+            <td>Purpose</td>
+            <td>Business intelligence, reporting</td>
+            <td>Exploration, ML, AI</td>
+        </tr>
+        <tr>
+            <td>Users</td>
+            <td>Analysts, BI teams</td>
+            <td>Data scientists, engineers</td>
+        </tr>
+        <tr>
+            <td>Accessibility</td>
+            <td>Rigid, harder to change</td>
+            <td>Highly flexible</td>
+        </tr>
+        <tr>
+            <td>Processing</td>
+            <td>ETL (Extract-Transform-Load)</td>
+            <td>ELT (Extract-Load-Transform)</td>
+        </tr>
+        <tr>
+            <td>Cost</td>
+            <td>Higher, optimized storage</td>
+            <td>Lower, object storage</td>
+        </tr>
+        <tr>
+            <td>Performance</td>
+            <td>Fast SQL queries</td>
+            <td>Depends on processing</td>
+        </tr>
+        <tr>
+            <td>Examples</td>
+            <td>Snowflake, BigQuery, Azure Synapse</td>
+            <td>AWS S3, Azure Data Lake Storage</td>
+        </tr>
+    </table>
+    <h3>
+        Key Takeaways
+    </h3>
+    <ul>
+        Data Warehouse: Best when you need clean, reliable data for dashboards, compliance 
+        and executive reporting
+    </ul>
+    <ul>
+        Data Lake: Ideal for large-scale raw data ingestion, experimentation, and training AI/ML models
+    </ul>
+    <h3>
+        Risks & Trade-offs
+    </h3>
+    <ul>
+        Warehouse: More expensive and rigid; schema changes are slow.
+    </ul>
+    <ul>
+        Lake: Can become a “data swamp” if governance is weak; harder for non-technical users to query
+    </ul>
+</section>
+
+
+
+<!--Batch vs Streaming-->
+<section>
+<h2>
+    Batch vs Streaming
+</h2>
+<p>
+    Batch processing handles large volumes of data in scheduled chunks, 
+    while streaming processes data continuously in real time. 
+    Batch is ideal for ETL, reporting, and historical analysis, 
+    whereas streaming is critical for low-latency applications like fraud detection, IoT, 
+    and live dashboards.
+</p>
+<table>
+    <tr>
+        <th>Aspect</th>
+        <th>Batch Processing</th>
+        <th>Streaming Processing</th>
+    </tr>
+    <tr>
+        <td>Data Handling</td>
+        <td>Large sets processed at intervals</td>
+        <td>Continuous flow of incoming data</td>
+    </tr>
+    <tr>
+        <td>Latency</td>
+        <td>High (minutes to hours)</td>
+        <td>Low (milliseconds to seconds)</td>
+    </tr>
+    <tr>
+        <td>Best Use Cases</td>
+        <td>ETL, reporting, historical analysis</td>
+        <td>Fraud detection, IoT monitoring, live dashboards</td>
+    </tr>
+    <tr>
+        <td>Complexity</td>
+        <td>Simpler to implement</td>
+        <td>Requires advanced infrastructure</td>
+    </tr>
+    <tr>
+        <td>Performance Focus</td>
+        <td>Throughput for large jobs</td>
+        <td>Real-time responsiveness</td>
+    </tr>
+    <tr>
+        <td>Examples</td>
+        <td>Nightly data warehouse loads</td>
+        <td>Stock trading systems, sensor data pipelines</td>
+    </tr>
+ </table>
+<p>
+    In short: Batch is best when real-time results aren’t required, 
+    while streaming is essential when instant insights are critical.
+</p>
+</section>
+
+<!--Azure Databricks-->
+<section>
+    <h2>
+        Azure Databricks
+    </h2>
+    <p>
+        Azure Databricks is a unified analytics and AI platform built on lakehouse architecture. 
+        It combines the scalability of data lakes with the performance of warehouses, enabling 
+        data engineering, machine learning, and real-time analytics in one environment.
+    </p>
+    <table>
+        <tr>
+            <th>Aspect</th>
+            <th>Details</th>
+        </tr>
+    <tr>
+        <td>Architecture</td>
+        <td>Lakehouse (Delta Lake + Spark)</td>
+    </tr>
+    <tr>
+        <td>Data Engineering</td>
+        <td>ETL pipelines, Auto Loader, Delta Lake</td>
+    </tr>
+    <tr>
+        <td>Data Science</td>
+        <td>Collaborative notebooks, ML model development</td>
+    </tr>
+    <tr>
+        <td>AI & ML</td>
+        <td>Train and deploy generative AI, predictive models</td>
+    </tr>
+    <tr>
+        <td>Governance</td>
+        <td>Unity Catalog for compliance, lineage, and security</td>
+    </tr>
+    <tr>
+        <td>Best Use Cases</td>
+        <td>Fraud detection, recommendation engines, IoT analytics</td>
+    </tr>
+</table>
+<p>
+    In short: Databricks is ideal for enterprises needing scalable, governed analytics and AI.
+</p>
+</section>
+
+
+
+<!--Power BI-->
+<section>
+<h2>
+    Power BI
+</h2>
+<p>
+    Power BI is Microsoft's business intelligence tool that transforms raw data into 
+    interactive dashboards and reports. It integrates with Azure, Excel, Teams, and Fabric, 
+    making it a powerful choice for governed, scalable analytics.
+</p>
+<table>
+    <tr>
+        <th>Component</th>
+        <th>Details</th>
+    </tr>
+    <tr>
+        <td>Data Connectivity</td>
+        <td>Connects to hundreds of sources (SQL, Excel, Salesforce, etc.)</td>
+    </tr>
+    <tr>
+        <td>Dashboards</td>
+        <td>Interactive visuals, charts, maps for real-time monitoring</td>
+    </tr>
+    <tr>
+        <td>AI Features</td>
+        <td>Copilot summaries, predictive insights</td>
+    </tr>
+    <tr>
+        <td>Collaboration</td>
+        <td>Share across Teams, SharePoint, PowerPoint, mobile apps</td>
+    </tr>
+    <tr>
+        <td>Governance</td>
+        <td>Integrated with Purview for compliance and role-based access</td>
+    </tr>
+    <tr>
+        <td>Best Use Cases</td>
+        <td>Executive dashboards, compliance reporting, self-service analytics</td>
+    </tr>
+</table>
+<p>
+    In short: Power BI empowers organizations to make data-driven decisions with ease.
+</p>
+</section>
+
+
+</body>
+</html>
