@@ -11,7 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
     "Data Warehouse vs Data Lake": "warehouse-lake",
     "Batch vs Streaming": "batch-streaming",
     "Azure Databricks": "databricks",
-    "Power BI": "power-bi"
+    "Power BI": "power-bi",
+    "Core Data Concepts": "cdc",
+    "DP-900 Quick Memory Sheet":"memory-sheet",
+    "SQL Basics":"sql-basics",
+    "Data Roles":"roles"
   };
 
   // Attach event listeners to all buttons

@@ -8,6 +8,7 @@
 </head>
 <body>
 
+
 <section>   
 <h1>
     Summary
@@ -16,6 +17,7 @@
     This is a simple summary page.<br>The dp900 exam consists mainly of 10 topics
 </p>
 <!--Click these to go to topic-->
+<button>Core Data Concepts</button>
 <button>OLTP vs OLAP</button>
 <button>Relational vs Non-Relational Databases(NoSQL)</button>
 <button>Azure SQL Database vs Managed Instance vs SQL VM</button>
@@ -25,7 +27,132 @@
 <button>Batch vs Streaming</button>
 <button>Azure Databricks</button>
 <button>Power BI</button>
+<button>Data Roles</button>
+<button>SQL Basics</button>
+<button>DP-900 Quick Memory Sheet</button>
+
 </section>
+
+
+<!-- Introduction -->
+<section id="overview">
+    <h1>DP-900 Study Guide</h1>
+
+    <p>
+        The DP-900 exam is not about deep technical implementation.
+        Microsoft wants to know:
+    </p>
+
+    <ul>
+        <li>What data is</li>
+        <li>How data is stored</li>
+        <li>Which Azure service should be used for a scenario</li>
+        <li>The difference between relational, non-relational, and analytics solutions</li>
+    </ul>
+
+    <h2>Most Tested Topics</h2>
+
+    <ol>
+        <li>Structured vs Semi-Structured vs Unstructured Data</li>
+        <li>OLTP vs OLAP</li>
+        <li>Relational vs NoSQL</li>
+        <li>Azure SQL Database vs Managed Instance vs SQL VM</li>
+        <li>Blob Storage vs Files vs Table Storage</li>
+        <li>Cosmos DB APIs</li>
+        <li>Data Warehouse vs Data Lake</li>
+        <li>Batch vs Streaming</li>
+        <li>Azure Databricks</li>
+        <li>Power BI</li>
+    </ol>
+</section>
+
+
+<!-- Core Data Concepts -->
+<section id="cdc">
+
+    <h2>Core Data Concepts</h2>
+
+    <h3>Structured Data</h3>
+
+    <p>
+        Structured data follows a fixed schema consisting of rows and columns.
+        It is commonly stored in relational databases and queried using SQL.
+    </p>
+
+    <table>
+        <tr>
+            <th>CustomerID</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sarah</td>
+            <td>30</td>
+        </tr>
+    </table>
+
+    <h4>Exam Tip</h4>
+
+    <p>
+        If you see tables, rows, columns or SQL queries,
+        think <strong>Relational Database</strong>.
+    </p>
+
+    <h3>Semi-Structured Data</h3>
+
+    <p>
+        Semi-structured data has organization but no fixed schema.
+        Common examples include JSON, XML and YAML.
+    </p>
+
+<pre>
+{
+  "name":"John",
+  "age":25
+}
+</pre>
+
+    <h4>Exam Tip</h4>
+
+    <p>
+        JSON = Semi-Structured Data.
+    </p>
+
+    <h3>Unstructured Data</h3>
+
+    <p>
+        Unstructured data has no predefined structure.
+    </p>
+
+    <ul>
+        <li>Images</li>
+        <li>Videos</li>
+        <li>PDFs</li>
+        <li>Emails</li>
+    </ul>
+
+    <h4>Azure Service</h4>
+
+    <p>
+        Azure Blob Storage
+    </p>
+
+    <h4>Exam Tip</h4>
+
+    <p>
+        Images + Videos + Documents + Backups =
+        Azure Blob Storage
+    </p>
+
+</section>
+
+
 
 
 
@@ -709,6 +836,178 @@
 <p>
     In short: Power BI empowers organizations to make data-driven decisions with ease.
 </p>
+</section>
+
+
+
+
+
+
+<!-- Data Roles -->
+<section id="roles">
+
+<h2>Data Roles</h2>
+
+<table>
+<tr>
+<th>Role</th>
+<th>Responsibilities</th>
+</tr>
+
+<tr>
+<td>Database Administrator (DBA)</td>
+<td>Security, Backups, Performance, Maintenance</td>
+</tr>
+
+<tr>
+<td>Data Engineer</td>
+<td>Builds pipelines, transforms and moves data</td>
+</tr>
+
+<tr>
+<td>Data Analyst</td>
+<td>Creates reports, dashboards and insights</td>
+</tr>
+
+</table>
+
+</section>
+
+
+
+<!-- SQL Basics -->
+<section id="sql-basics">
+
+<h2>SQL Basics</h2>
+
+<table>
+<tr>
+<th>Command</th>
+<th>Purpose</th>
+</tr>
+
+<tr>
+<td>SELECT</td>
+<td>Retrieve Data</td>
+</tr>
+
+<tr>
+<td>INSERT</td>
+<td>Add Data</td>
+</tr>
+
+<tr>
+<td>UPDATE</td>
+<td>Modify Data</td>
+</tr>
+
+<tr>
+<td>DELETE</td>
+<td>Remove Data</td>
+</tr>
+
+<tr>
+<td>CREATE</td>
+<td>Create Objects</td>
+</tr>
+
+</table>
+
+<h3>Exam Tip</h3>
+
+<p>
+What improves query performance?
+<strong>Indexes</strong>.
+</p>
+
+</section>
+
+
+
+<!-- Quick Memory Sheet -->
+<section id="memory-sheet">
+
+<h2>DP-900 Quick Memory Sheet</h2>
+
+<table>
+
+<tr>
+<th>Requirement</th>
+<th>Answer</th>
+</tr>
+
+<tr>
+<td>Relational database</td>
+<td>Azure SQL Database</td>
+</tr>
+
+<tr>
+<td>SQL migration</td>
+<td>Managed Instance</td>
+</tr>
+
+<tr>
+<td>Full SQL control</td>
+<td>SQL VM</td>
+</tr>
+
+<tr>
+<td>Store Images</td>
+<td>Blob Storage</td>
+</tr>
+
+<tr>
+<td>Shared Files</td>
+<td>Azure Files</td>
+</tr>
+
+<tr>
+<td>Key-value NoSQL</td>
+<td>Table Storage</td>
+</tr>
+
+<tr>
+<td>Global NoSQL</td>
+<td>Cosmos DB</td>
+</tr>
+
+<tr>
+<td>Big Data</td>
+<td>Azure Databricks</td>
+</tr>
+
+<tr>
+<td>Dashboards</td>
+<td>Power BI</td>
+</tr>
+
+<tr>
+<td>All data types</td>
+<td>Data Lake</td>
+</tr>
+
+<tr>
+<td>Historical reporting</td>
+<td>Data Warehouse</td>
+</tr>
+
+<tr>
+<td>Real-time analytics</td>
+<td>Streaming</td>
+</tr>
+
+<tr>
+<td>Business transactions</td>
+<td>OLTP</td>
+</tr>
+
+<tr>
+<td>Business reporting</td>
+<td>OLAP</td>
+</tr>
+
+</table>
+
 </section>
 
 <script src="script.js"></script>
